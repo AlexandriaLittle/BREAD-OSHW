@@ -1,0 +1,9 @@
+Id,Designator,Package,Quantity,Designation,Supplier and ref,Cost per part,Total Cost
+1,"C1, C2",C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,2,10uF_t,https://www.digikey.ca/short/qfrbqfhd ,$0.81,$1.62
+2,U1,micro_SD_LOAF,1,microSD_Connector,https://www.digikey.ca/en/products/detail/gct/MEM2061-01-188-00-A/9859612 ,$1.74,$1.74
+3,A1,Arduino_Nano,1,Arduino_Nano_v3.x,https://www.amazon.ca/KeeYees-Module-ATmega328P-CH340G-Arduino/dp/B0816SGKHH/ref=sr_1_9?crid=3IE2TVT36YECG&keywords=arduino+nano&qid=1659986579&sprefix=arduino+nano%2Caps%2C139&sr=8-9 ,$9.58,$9.58
+5,"J1, J2, J3, J4, J5, J6, J7, J8",PinHeader_1x10_P2.54mm_Vertical,8,Conn_01x10_Male,https://www.digikey.ca/en/products/detail/adam-tech/PH1-10-UA/9830653 ,$0.25,$2.00
+6,"J11, J12",PinHeader_1x06_P2.54mm_Vertical,2,Conn_01x06_Female,https://www.digikey.ca/en/products/detail/sullins-connector-solutions/PPTC061LFBN-RC/810145 ,$0.72,$1.44
+7,J9,"TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",1,Screw_Terminal_01x02,https://www.digikey.ca/short/q7wbhd  ,$0.68,$0.68
+8,J10,PinHeader_1x03_P2.54mm_Vertical,1,Conn_01x03_Male,https://www.digikey.ca/en/products/detail/adam-tech/PH1-03-UA/9830289 ,$0.14,$0.14
+,,,,,,Total,$17.20

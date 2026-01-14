@@ -1,0 +1,41 @@
+-------------------------------------------------------------------
+SLC_TTS Datasheet
+
+Broadly Reconfigurable and Expandable Automation Device (BREAD)
+Text-to-Speech Slice (SLC-TTS)
+-------------------------------------------------------------------
+
+Author: Ian Huff
+Date Updated: 4/12/2023
+Revision 0
+
+
+-- Short Device Description --
+
+This device connects to a Raspberry Pi or Raspberry Pi-compatible device.
+It receives text data as input, then generates and plays speech audio.
+
+
+-- Quick Information --
+
+Short title:               Text-to-Speech Slice
+Part #:	                   SLC-TTS
+Repository Link:           https://osf.io/erbp6/
+Device Cost:               Roughly $30, plus cost of Arduino and RPi/RPi-compatible device (varies)
+Assembly Difficulty:       Easy, Millable
+Application Area:          Robotics, UX, Accessibility
+
+
+-- Bill of Materials --
+
+Part   - Name                              - Q - $/ea. - URL
+A1     - Arduino Nano                      - 1 - 24.90 - https://www.digikey.com/short/v8cmbt7m
+A1     - 1x20 female header pins           - 2 -  0.98 - https://www.digikey.com/short/4h4njfbf
+C1, C2 - 10 uF surface-mount capacitor     - 2 -  0.56 - https://www.digikey.com/short/qfrbqfhd
+J1     - 1x10 female header pins (90 deg)  - 1 -  0.79 - https://www.digikey.com/short/23bfwwjh
+J2     - 1x20 male header pins             - 2 -  0.90 - https://www.digikey.com/short/597z5m75
+U1     - Adafruit Level Shifter            - 1 -  3.95 - https://www.adafruit.com/product/757
+U2     - Adafruit I2S Amp                  - 1 -  5.95 - https://www.adafruit.com/product/3006
+U1, U2 - 1x10 female header pins           - 3 -  0.70 - https://www.digikey.com/short/0927z9wq
+N/A    - Adafruit GPIO Ribbon Cable        - 1 -  2.95 - https://www.adafruit.com/product/1988
+N/A    - Raspberry Pi or Compatible Device - 1 - 69.99 - https://www.amazon.com/dp/B00T2U7R7I/

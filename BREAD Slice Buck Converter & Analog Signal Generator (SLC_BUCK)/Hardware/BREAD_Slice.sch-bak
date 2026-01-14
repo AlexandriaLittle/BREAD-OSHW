@@ -1,0 +1,555 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR06
+U 1 1 5FA66343
+P 1800 4600
+F 0 "#PWR06" H 1800 4350 50  0001 C CNN
+F 1 "GND" H 2150 4650 50  0000 C CNN
+F 2 "" H 1800 4600 50  0001 C CNN
+F 3 "" H 1800 4600 50  0001 C CNN
+	1    1800 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 4500 1750 4550
+Wire Wire Line
+	1750 4550 1800 4550
+Wire Wire Line
+	1850 4550 1850 4500
+Wire Wire Line
+	1800 4550 1800 4600
+Connection ~ 1800 4550
+Wire Wire Line
+	1800 4550 1850 4550
+$Comp
+L power:+5V #PWR07
+U 1 1 5FA67628
+P 1950 2400
+F 0 "#PWR07" H 1950 2250 50  0001 C CNN
+F 1 "+5V" H 1965 2573 50  0000 C CNN
+F 2 "" H 1950 2400 50  0001 C CNN
+F 3 "" H 1950 2400 50  0001 C CNN
+	1    1950 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 2400 1950 2500
+$Comp
+L power:+12V #PWR05
+U 1 1 5FA6990A
+P 1650 2400
+F 0 "#PWR05" H 1650 2250 50  0001 C CNN
+F 1 "+12V" H 1665 2573 50  0000 C CNN
+F 2 "" H 1650 2400 50  0001 C CNN
+F 3 "" H 1650 2400 50  0001 C CNN
+	1    1650 2400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1250 2900
+NoConn ~ 1250 3000
+Wire Wire Line
+	800  3300 1250 3300
+Text Label 800  3200 0    50   ~ 0
+INT
+Text Label 2600 4000 2    50   ~ 0
+I2C_CLK
+Text Label 2600 3900 2    50   ~ 0
+I2C_DAT
+Wire Wire Line
+	2600 3900 2250 3900
+Wire Wire Line
+	2250 4000 2600 4000
+NoConn ~ 1850 2500
+NoConn ~ 2250 2900
+NoConn ~ 2250 3000
+NoConn ~ 2250 3300
+Text Label 800  3100 0    50   ~ 0
+E_STOP
+Wire Wire Line
+	800  3200 1250 3200
+Wire Wire Line
+	1250 3100 800  3100
+$Comp
+L OCI_UPL_2_Capacitors:10uF_t C1
+U 1 1 5FA94020
+P 1600 1350
+F 0 "C1" H 1715 1396 50  0000 L CNN
+F 1 "10uF_t" H 1715 1305 50  0000 L CNN
+F 2 "OCI_UPL_FOOTPRINTS:C_2312" H 1600 1100 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qcd8n7" H 1600 1550 30  0001 C CNN
+F 4 "T491C106K025AT" H 1600 1600 30  0001 C CNN "Part #"
+F 5 "2.021" H 1600 1150 30  0001 C CNN "UPL #"
+	1    1600 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5FA94026
+P 1600 1550
+F 0 "#PWR04" H 1600 1300 50  0001 C CNN
+F 1 "GND" H 1605 1377 50  0000 C CNN
+F 2 "" H 1600 1550 50  0001 C CNN
+F 3 "" H 1600 1550 50  0001 C CNN
+	1    1600 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 1200 1600 1150
+Wire Wire Line
+	1600 1550 1600 1500
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5FAB1765
+P 1100 4900
+F 0 "H1" H 1200 4946 50  0000 L CNN
+F 1 "MountingHole" H 1200 4855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1100 4900 50  0001 C CNN
+F 3 "~" H 1100 4900 50  0001 C CNN
+	1    1100 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5FAB1B3E
+P 1850 4900
+F 0 "H3" H 1950 4946 50  0000 L CNN
+F 1 "MountingHole" H 1950 4855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1850 4900 50  0001 C CNN
+F 3 "~" H 1850 4900 50  0001 C CNN
+	1    1850 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5FAB217D
+P 1100 5100
+F 0 "H2" H 1200 5146 50  0000 L CNN
+F 1 "MountingHole" H 1200 5055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1100 5100 50  0001 C CNN
+F 3 "~" H 1100 5100 50  0001 C CNN
+	1    1100 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5FAB25F7
+P 1850 5100
+F 0 "H4" H 1950 5146 50  0000 L CNN
+F 1 "MountingHole" H 1950 5055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1850 5100 50  0001 C CNN
+F 3 "~" H 1850 5100 50  0001 C CNN
+	1    1850 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_Module:Arduino_Nano_v3.x A1
+U 1 1 5FCAD89B
+P 1750 3500
+F 0 "A1" H 1750 2411 50  0000 C CNN
+F 1 "Arduino_Nano_v3.x" H 2250 2550 50  0000 C CNN
+F 2 "Module:Arduino_Nano" H 1750 3500 50  0001 C CIN
+F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 1750 3500 50  0001 C CNN
+	1    1750 3500
+	1    0    0    -1  
+$EndComp
+Text Label 800  3300 0    50   ~ 0
+SYNC
+$Comp
+L Connector:Conn_01x10_Female J1
+U 1 1 5FE6B3C7
+P 1400 1450
+F 0 "J1" H 1428 1380 50  0000 L CNN
+F 1 "Conn_01x10_Female" H 1428 1335 50  0001 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Horizontal" H 1400 1450 50  0001 C CNN
+F 3 "~" H 1400 1450 50  0001 C CNN
+	1    1400 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR01
+U 1 1 5FE6D224
+P 1100 1000
+F 0 "#PWR01" H 1100 850 50  0001 C CNN
+F 1 "+12V" H 1115 1173 50  0000 C CNN
+F 2 "" H 1100 1000 50  0001 C CNN
+F 3 "" H 1100 1000 50  0001 C CNN
+	1    1100 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5FE6E4CA
+P 1150 2000
+F 0 "#PWR02" H 1150 1750 50  0001 C CNN
+F 1 "GND" H 1155 1827 50  0000 C CNN
+F 2 "" H 1150 2000 50  0001 C CNN
+F 3 "" H 1150 2000 50  0001 C CNN
+	1    1150 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 2000 1150 1950
+Wire Wire Line
+	1150 1050 1200 1050
+Wire Wire Line
+	1200 1950 1150 1950
+Connection ~ 1150 1950
+Wire Wire Line
+	1100 1000 1100 1150
+Wire Wire Line
+	1100 1150 1200 1150
+Wire Wire Line
+	1200 1850 1100 1850
+Wire Wire Line
+	1100 1850 1100 1150
+Connection ~ 1100 1150
+Wire Wire Line
+	1200 1450 1150 1450
+Connection ~ 1150 1450
+Wire Wire Line
+	1150 1450 1150 1050
+Text Label 750  1250 0    50   ~ 0
+I2C_CLK
+Text Label 750  1350 0    50   ~ 0
+I2C_DAT
+Text Label 750  1550 0    50   ~ 0
+E_STOP
+Text Label 750  1650 0    50   ~ 0
+INT
+Text Label 750  1750 0    50   ~ 0
+SYNC
+Wire Wire Line
+	1200 1250 750  1250
+Wire Wire Line
+	750  1350 1200 1350
+Wire Wire Line
+	1150 1950 1150 1450
+Wire Wire Line
+	1200 1550 750  1550
+Wire Wire Line
+	750  1650 1200 1650
+Wire Wire Line
+	750  1750 1200 1750
+$Comp
+L power:+12V #PWR03
+U 1 1 5FE73FEC
+P 1600 1150
+F 0 "#PWR03" H 1600 1000 50  0001 C CNN
+F 1 "+12V" H 1615 1323 50  0000 C CNN
+F 2 "" H 1600 1150 50  0001 C CNN
+F 3 "" H 1600 1150 50  0001 C CNN
+	1    1600 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 2400 1650 2500
+$Comp
+L OCI_UPL_2_Capacitors:10uF_t C2
+U 1 1 5FE84189
+P 2100 1350
+F 0 "C2" H 2215 1396 50  0000 L CNN
+F 1 "10uF_t" H 2215 1305 50  0000 L CNN
+F 2 "OCI_UPL_FOOTPRINTS:C_2312" H 2100 1100 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qcd8n7" H 2100 1550 30  0001 C CNN
+F 4 "T491C106K025AT" H 2100 1600 30  0001 C CNN "Part #"
+F 5 "2.021" H 2100 1150 30  0001 C CNN "UPL #"
+	1    2100 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 5FE8418F
+P 2100 1550
+F 0 "#PWR09" H 2100 1300 50  0001 C CNN
+F 1 "GND" H 2105 1377 50  0000 C CNN
+F 2 "" H 2100 1550 50  0001 C CNN
+F 3 "" H 2100 1550 50  0001 C CNN
+	1    2100 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 1200 2100 1150
+Wire Wire Line
+	2100 1550 2100 1500
+$Comp
+L power:+5V #PWR08
+U 1 1 5FE8466D
+P 2100 1150
+F 0 "#PWR08" H 2100 1000 50  0001 C CNN
+F 1 "+5V" H 2115 1323 50  0000 C CNN
+F 2 "" H 2100 1150 50  0001 C CNN
+F 3 "" H 2100 1150 50  0001 C CNN
+	1    2100 1150
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	700  5250 2650 5250
+Wire Notes Line
+	2650 5250 2650 750 
+Wire Notes Line
+	2650 750  700  750 
+Wire Notes Line
+	700  750  700  5250
+Wire Notes Line
+	650  5300 2700 5300
+Wire Notes Line
+	2700 5300 2700 600 
+Wire Notes Line
+	2700 600  650  600 
+Wire Notes Line
+	650  600  650  5300
+Text Notes 750  750  0    100  ~ 0
+Core Slice Components
+$Comp
+L Graphic:Logo_Open_Hardware_Small Logo1
+U 1 1 5FE4A934
+P 10950 6850
+F 0 "Logo1" H 10950 7125 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 10950 6625 50  0001 C CNN
+F 2 "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen" H 10950 6850 50  0001 C CNN
+F 3 "~" H 10950 6850 50  0001 C CNN
+	1    10950 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L OCI_UPL_4_Semiconductors:TIP120 Q?
+U 1 1 61539A93
+P 5600 2750
+F 0 "Q?" V 5928 2750 50  0000 C CNN
+F 1 "TIP120" V 5837 2750 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:TO-220_Neutral123_Vertical_LargePads" H 6000 2850 30  0001 C CNN
+F 3 "https://www.digikey.com/short/q75wn4" H 6050 2900 30  0001 C CNN
+F 4 "TIP120" H 6000 2650 30  0001 C CNN "Part #"
+F 5 "4.023" H 6000 2600 30  0001 C CNN "UPL #"
+	1    5600 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:INDUCTOR L?
+U 1 1 6153A862
+P 6300 2650
+F 0 "L?" H 6300 2865 50  0000 C CNN
+F 1 "10 mH" H 6300 2774 50  0000 C CNN
+F 2 "" H 6300 2650 50  0001 C CNN
+F 3 "~" H 6300 2650 50  0001 C CNN
+	1    6300 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6153AFE6
+P 6700 3000
+F 0 "C?" H 6850 3250 50  0000 L CNN
+F 1 "100uF" H 6750 3150 50  0000 L CNN
+F 2 "" H 6738 2850 50  0001 C CNN
+F 3 "~" H 6700 3000 50  0001 C CNN
+	1    6700 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L OCI_UPL_10_Connectors:Term_2 J?
+U 1 1 6153B897
+P 8350 2800
+F 0 "J?" H 8438 2928 60  0000 L CNN
+F 1 "Term_2" H 8438 2822 60  0000 L CNN
+F 2 "OCI_UPL_FOOTPRINTS:TerminalBlock_Pheonix_MKDS1.5-2pol" H 9200 3000 30  0001 C CNN
+F 3 "https://www.digikey.com/short/q7wbhd" H 9200 2850 30  0001 C CNN
+F 4 "1935161" H 9200 2900 30  0001 C CNN "Part #"
+F 5 "10.003" H 9250 2950 30  0001 C CNN "UPL #"
+	1    8350 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6153FA7C
+P 5950 3000
+F 0 "D?" V 5904 3080 50  0000 L CNN
+F 1 "D" V 5995 3080 50  0000 L CNN
+F 2 "" H 5950 3000 50  0001 C CNN
+F 3 "~" H 5950 3000 50  0001 C CNN
+	1    5950 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6154B74B
+P 8050 3000
+F 0 "#PWR?" H 8050 2750 50  0001 C CNN
+F 1 "GND" H 8055 2827 50  0000 C CNN
+F 2 "" H 8050 3000 50  0001 C CNN
+F 3 "" H 8050 3000 50  0001 C CNN
+	1    8050 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6154BE4A
+P 6700 3250
+F 0 "#PWR?" H 6700 3000 50  0001 C CNN
+F 1 "GND" H 6705 3077 50  0000 C CNN
+F 2 "" H 6700 3250 50  0001 C CNN
+F 3 "" H 6700 3250 50  0001 C CNN
+	1    6700 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6154C4AA
+P 5950 3250
+F 0 "#PWR?" H 5950 3000 50  0001 C CNN
+F 1 "GND" H 5955 3077 50  0000 C CNN
+F 2 "" H 5950 3250 50  0001 C CNN
+F 3 "" H 5950 3250 50  0001 C CNN
+	1    5950 3250
+	1    0    0    -1  
+$EndComp
+Text Label 5600 3100 3    50   ~ 0
+SW
+Wire Wire Line
+	5600 3100 5600 2950
+Wire Wire Line
+	5800 2650 5950 2650
+Wire Wire Line
+	5950 2850 5950 2650
+Connection ~ 5950 2650
+Wire Wire Line
+	5950 2650 6050 2650
+Wire Wire Line
+	5950 3250 5950 3150
+Wire Wire Line
+	6550 2650 6700 2650
+Wire Wire Line
+	8100 2800 8050 2800
+Wire Wire Line
+	8050 2800 8050 3000
+Wire Wire Line
+	6700 3150 6700 3250
+Wire Wire Line
+	6700 2850 6700 2650
+$Comp
+L Device:R_US R?
+U 1 1 6155E983
+P 7150 2800
+F 0 "R?" H 7218 2846 50  0000 L CNN
+F 1 "100k" H 7218 2755 50  0000 L CNN
+F 2 "" V 7190 2790 50  0001 C CNN
+F 3 "~" H 7150 2800 50  0001 C CNN
+	1    7150 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61562D9B
+P 7150 3250
+F 0 "#PWR?" H 7150 3000 50  0001 C CNN
+F 1 "GND" H 7155 3077 50  0000 C CNN
+F 2 "" H 7150 3250 50  0001 C CNN
+F 3 "" H 7150 3250 50  0001 C CNN
+	1    7150 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 2650 7150 2650
+Connection ~ 6700 2650
+Connection ~ 7150 2650
+Wire Wire Line
+	7150 2650 8100 2650
+Text Label 7700 3100 3    50   ~ 0
+FB
+Wire Wire Line
+	7150 2950 7700 2950
+Wire Wire Line
+	7700 2950 7700 3100
+$Comp
+L OCI_UPL_10_Connectors:Term_2 J?
+U 1 1 615654F1
+P 4950 2650
+F 0 "J?" H 4847 2393 60  0000 C CNN
+F 1 "Term_2" H 4847 2499 60  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:TerminalBlock_Pheonix_MKDS1.5-2pol" H 5800 2850 30  0001 C CNN
+F 3 "https://www.digikey.com/short/q7wbhd" H 5800 2700 30  0001 C CNN
+F 4 "1935161" H 5800 2750 30  0001 C CNN "Part #"
+F 5 "10.003" H 5850 2800 30  0001 C CNN "UPL #"
+	1    4950 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61566067
+P 5250 2900
+F 0 "#PWR?" H 5250 2650 50  0001 C CNN
+F 1 "GND" H 5255 2727 50  0000 C CNN
+F 2 "" H 5250 2900 50  0001 C CNN
+F 3 "" H 5250 2900 50  0001 C CNN
+	1    5250 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 2650 5400 2650
+Wire Wire Line
+	5200 2800 5250 2800
+Wire Wire Line
+	5250 2800 5250 2900
+$Comp
+L Device:R_POT_US RV?
+U 1 1 61568975
+P 7150 3100
+F 0 "RV?" H 7083 3146 50  0000 R CNN
+F 1 "100k" H 7083 3055 50  0000 R CNN
+F 2 "" H 7150 3100 50  0001 C CNN
+F 3 "~" H 7150 3100 50  0001 C CNN
+	1    7150 3100
+	1    0    0    -1  
+$EndComp
+Connection ~ 7150 2950
+$Comp
+L power:GND #PWR?
+U 1 1 6156AA22
+P 7350 3250
+F 0 "#PWR?" H 7350 3000 50  0001 C CNN
+F 1 "GND" H 7355 3077 50  0000 C CNN
+F 2 "" H 7350 3250 50  0001 C CNN
+F 3 "" H 7350 3250 50  0001 C CNN
+	1    7350 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 3100 7350 3100
+Wire Wire Line
+	7350 3100 7350 3250
+Text Label 1100 3500 2    50   ~ 0
+SW
+Wire Wire Line
+	1250 3500 1100 3500
+Text Label 2400 3500 0    50   ~ 0
+FB
+Wire Wire Line
+	2400 3500 2250 3500
+NoConn ~ 2250 3600
+NoConn ~ 2250 3700
+NoConn ~ 2250 3800
+NoConn ~ 2250 4100
+NoConn ~ 2250 4200
+NoConn ~ 1250 3600
+NoConn ~ 1250 3400
+NoConn ~ 1250 3700
+NoConn ~ 1250 3800
+NoConn ~ 1250 3900
+NoConn ~ 1250 4000
+NoConn ~ 1250 4100
+NoConn ~ 1250 4200
+$EndSCHEMATC

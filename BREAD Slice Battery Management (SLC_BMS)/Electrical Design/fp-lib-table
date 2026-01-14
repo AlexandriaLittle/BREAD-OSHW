@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "BREAD_Slice")(type "KiCad")(uri "${KIPRJMOD}/BREAD_Slice.pretty")(options "")(descr ""))
+)

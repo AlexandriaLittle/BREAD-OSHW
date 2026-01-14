@@ -1,0 +1,165 @@
+-------------------------------------------------------------------
+SLC_TTS Manual
+
+Broadly Reconfigurable and Expandable Automation Device (BREAD)
+Text-to-Speech Slice (SLC-TTS)
+-------------------------------------------------------------------
+
+Author: Ian Huff
+Date Updated: 4/12/2023
+Revision 0
+
+
+-- Required Materials --
+
+- SLC_TTS PCB
+- Arduino Nano
+- Raspberry Pi or Raspberry Pi compatible device, connected to the Internet
+- MicroSD card (size depends on your device, 8GB is a safe bet)
+- Adafruit Level Shifter
+- Adafruit I2S Amp
+- Raspberry Pi GPIO ribbon cable
+- Male & female header pins
+- Soldering equipment
+- USB-Mini cable
+- Ethernet cable (optional, used to ssh into the Raspberry Pi)
+- Computer with MicroSD reader
+- Speaker
+
+This guide will assume the computer is running Windows 11, though the steps should be similar for other operating systems.
+See the Bill of Materials in the datasheet for a full list of specific pins and quantities
+
+
+-- Soldering --
+
+Note: All header pins should stand out from the front of the board (the side with the Open Source Hardware logo and board info); the solder should be applied on the back of the board.
+Solder 90-degree female header pins to J1.
+Solder standard female header pins to A1, U1, and U2.
+Solder standard male header pins to J2.
+
+If the Arduino Nano, level shifter, and I2S amp are not already soldered, solder their male header pins now.
+
+
+-- Conections --
+
+Insert the Arduino Nano into the female header pin slots on A1, with the USB-Mini port facing the edge of the board.
+Insert the level shifter into the female header pin slots on U1, with the HV/LV and GND pins aligned with the text printed on the board.
+Insert the I2S amp into the female header pin slots on U2, with the Vin, GND, DIN, BCLK, and LRC pins aligned with the text printed on the board.
+Use the Raspberry Pi GPIO ribbon cable to connect the male header pins on J2 to the Raspberry Pi.
+Ensure that pin 1, denoted by the square solder pad and break in the printed outline on the slice board, is correctly connected to pin 1 on the Raspberry Pi.
+Connect a speaker to the terminal on the I2S amp.
+
+
+-- Arduino Setup --
+
+Plug the Arduino Nano, connected to the slice, into your computer with a USB-Mini cable.
+Download and install the Arduino IDE here:
+https://www.arduino.cc/en/software
+Open the Arduino sketch (Firmware/SLC_TTS/SLC_TTS.ino) in the Arduino IDE.
+Upload the sketch to the board by clicking the "Upload" button near the top of the window (Right Arrow icon).
+When the message "Done uploading." is displayed above the console at the bottom of the window, the Arduino IDE can be closed.
+
+If you're having trouble uploading the code to the Arduino, check Tools > Port and ensure that the correct USB port is selected.
+If the issue still occurs, try using a different USB port.
+
+
+-- MicroSD Card Setup --
+
+Download and install the Raspberry Pi Imager tool here:
+https://www.raspberrypi.com/software/
+Insert the MicroSD card into your computer and launch the tool.
+In the tool, under Operating System, select Raspberry Pi OS (other) > Raspberry Pi OS Lite
+If there are multiple options available, select the Raspberry Pi OS Lite option that is most compatible with your Raspberry Pi device.
+In the tool, under Storage, select the MicroSD card.
+
+If you will be setting up the Raspberry Pi headlessly (i.e. without a monitor), click the Settings button.
+Make sure the the "Set username and password" box is checked.
+Set a username and passowrd. This guide will use the former defaults of "pi" for the username, and "raspberry" for the password.
+Optionally, if you wish to enable ssh, make sure the "Enable SSH" box is checked.
+Click the "Write" button.
+
+The writing process tends to be prone to errors and failures, so monitor the process.
+If the process fails, you may need to restart your computer before trying again.
+When the process is successful, you may close the Raspberry Pi Imager.
+
+Copy the SLC_TTS/Firmware/SLC_TTS.py file to the root of the MicroSD card.
+Eject the MicroSD card from your computer, insert it into the Raspberry Pi.
+If you are using an Ethernet cable to ssh into the Raspberry Pi, plug it in now.
+Plug the USB-Mini cable back into the Arduino Nano to power both devices.
+
+When the device has booted, you may be prompted to log in.
+Log in using the password you set previously, or create a username and password if prompted.
+
+
+-- Enabling SPI --
+
+When using ssh over Ethernet, you can connect to the Raspberry Pi with the command "ssh pi@raspberrypi.local"
+The device may take some time to boot.
+
+If a message is displayed indicating that the remote host identification has changed:
+Navigate to the file C://Users/[username]/.ssh/known_hosts.
+Open the file using Notepad or another text editor and delete and lines beginning with "raspberrypi.local"
+Save the file and try the ssh again.
+
+Once you have logged in to the device, run the command "sudo raspi-config"
+This will display a menu with several configuration options.
+Navigate to option 3, "Interface Options", and press Enter.
+Navigate to option I4, "SPI", and press Enter.
+A window will be displayed which asks "Would you like the SPI interface to be enabled?"
+Select "<Yes>"
+On success, the message "The SPI interface is enabled" will be displayed.
+Selecting "<Ok>" will return you to the main config window.
+Select "<Finish>" to return to the terminal.
+
+
+-- Enabling I2S --
+
+Instructions on how to enable the I2S interface for GPIO audio can be found at the following website:
+https://learn.adafruit.com/adafruit-max98357-i2s-class-d-mono-amp/raspberry-pi-usage
+
+You may find that the default keyboard layout does not match your keyboard.
+If this is the case, you can change the keyboard layout by running "sudo raspi-config" and navigating to Localisation Options.
+
+
+-- Installing eSpeak --
+
+Run the command "sudo apt-get install espeak". The Raspberry Pi will need to be connected to the Internet.
+If prompted to confirm, say yes.
+
+-- Enabling auto-boot --
+
+------- WIP - THIS METHOD IS NOT CONSISTENT -------
+
+Enter the command "sudo crontab -e".
+If prompted to select an editor, select nano (most likely option 1).
+When the text editor has loaded, add the following line to the end of the file:
+
+@reboot sleep 60 python3 /boot/SLC_TTS.py
+
+The "sleep 60" adds a 60 second delay before the script starts, ensuring that the SPI interface is activated correctly.
+To save the file, press Ctrl+X, then Y to confirm, then Enter to confirm.
+When the device is next rebooted, it should automatically run the SLC_TTS.py script.
+
+
+-- Usage Overview --
+
+Once the board is powered, the Raspberry Pi will take some time to boot.
+Once complete, serial data containing a string of text can be sent to the device's Arduino Nano.
+The data will then be forwarded to the Raspberry Pi via SPI.
+On receipt of a string of text, the Raspberry Pi will generate speech audio and play it.
+
+To run the script manually, after logging in to the Raspberry Pi, run the command "python3 /boot/SLC_TTS.py"
+When the Arduino Nano is powered via a USB cable connected to a computer, the Arduino IDE's Serial Monitor can be used to send text data.
+
+Currently, there is a limit of around 60 characters, so try to keep messages short until this is remedied.
+
+
+-- Special Commands --
+
+Sending a string that begins with "###" will indicate that the string is a command
+Commands will not be spoken. Instead, they allow settings to be changed.
+Currently implemented commands:
+  - ### volume <int>
+    - Sets the espeak -a flag to <int>
+	- Default: 10
+	- Values lower than 10 will reduce the volume, and vice versa.

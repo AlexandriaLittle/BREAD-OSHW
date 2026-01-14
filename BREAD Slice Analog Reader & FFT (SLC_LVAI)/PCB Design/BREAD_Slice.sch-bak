@@ -1,0 +1,2870 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR06
+U 1 1 5FA66343
+P 1800 4600
+F 0 "#PWR06" H 1800 4350 50  0001 C CNN
+F 1 "GND" H 2150 4650 50  0000 C CNN
+F 2 "" H 1800 4600 50  0001 C CNN
+F 3 "" H 1800 4600 50  0001 C CNN
+	1    1800 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 4500 1750 4550
+Wire Wire Line
+	1750 4550 1800 4550
+Wire Wire Line
+	1850 4550 1850 4500
+Wire Wire Line
+	1800 4550 1800 4600
+Connection ~ 1800 4550
+Wire Wire Line
+	1800 4550 1850 4550
+$Comp
+L power:+5V #PWR07
+U 1 1 5FA67628
+P 1950 2400
+F 0 "#PWR07" H 1950 2250 50  0001 C CNN
+F 1 "+5V" H 1965 2573 50  0000 C CNN
+F 2 "" H 1950 2400 50  0001 C CNN
+F 3 "" H 1950 2400 50  0001 C CNN
+	1    1950 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 2400 1950 2500
+$Comp
+L power:+12V #PWR05
+U 1 1 5FA6990A
+P 1650 2400
+F 0 "#PWR05" H 1650 2250 50  0001 C CNN
+F 1 "+12V" H 1665 2573 50  0000 C CNN
+F 2 "" H 1650 2400 50  0001 C CNN
+F 3 "" H 1650 2400 50  0001 C CNN
+	1    1650 2400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1250 2900
+NoConn ~ 1250 3000
+Wire Wire Line
+	800  3300 1250 3300
+Text Label 800  3200 0    50   ~ 0
+SYNC
+Text Label 2600 4000 2    50   ~ 0
+I2C_CLK
+Text Label 2600 3900 2    50   ~ 0
+I2C_DAT
+Wire Wire Line
+	2600 3900 2250 3900
+Wire Wire Line
+	2250 4000 2600 4000
+NoConn ~ 1850 2500
+NoConn ~ 2250 2900
+NoConn ~ 2250 3000
+NoConn ~ 2250 3300
+Text Label 800  3100 0    50   ~ 0
+E_STOP
+Wire Wire Line
+	800  3200 1250 3200
+Wire Wire Line
+	1250 3100 800  3100
+$Comp
+L OCI_UPL_2_Capacitors:10uF_t C1
+U 1 1 5FA94020
+P 1600 1350
+F 0 "C1" H 1715 1396 50  0000 L CNN
+F 1 "10uF_t" H 1715 1305 50  0000 L CNN
+F 2 "OCI_UPL_FOOTPRINTS:C_2312" H 1600 1100 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qcd8n7" H 1600 1550 30  0001 C CNN
+F 4 "T491C106K025AT" H 1600 1600 30  0001 C CNN "Part #"
+F 5 "2.021" H 1600 1150 30  0001 C CNN "UPL #"
+	1    1600 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5FA94026
+P 1600 1550
+F 0 "#PWR04" H 1600 1300 50  0001 C CNN
+F 1 "GND" H 1605 1377 50  0000 C CNN
+F 2 "" H 1600 1550 50  0001 C CNN
+F 3 "" H 1600 1550 50  0001 C CNN
+	1    1600 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 1200 1600 1150
+Wire Wire Line
+	1600 1550 1600 1500
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5FAB1765
+P 1100 4900
+F 0 "H1" H 1200 4946 50  0000 L CNN
+F 1 "MountingHole" H 1200 4855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1100 4900 50  0001 C CNN
+F 3 "~" H 1100 4900 50  0001 C CNN
+	1    1100 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5FAB1B3E
+P 1850 4900
+F 0 "H3" H 1950 4946 50  0000 L CNN
+F 1 "MountingHole" H 1950 4855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1850 4900 50  0001 C CNN
+F 3 "~" H 1850 4900 50  0001 C CNN
+	1    1850 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5FAB217D
+P 1100 5100
+F 0 "H2" H 1200 5146 50  0000 L CNN
+F 1 "MountingHole" H 1200 5055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1100 5100 50  0001 C CNN
+F 3 "~" H 1100 5100 50  0001 C CNN
+	1    1100 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5FAB25F7
+P 1850 5100
+F 0 "H4" H 1950 5146 50  0000 L CNN
+F 1 "MountingHole" H 1950 5055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1850 5100 50  0001 C CNN
+F 3 "~" H 1850 5100 50  0001 C CNN
+	1    1850 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_Module:Arduino_Nano_v3.x A1
+U 1 1 5FCAD89B
+P 1750 3500
+F 0 "A1" H 1750 2411 50  0000 C CNN
+F 1 "Arduino_Nano_v3.x" H 2250 2550 50  0000 C CNN
+F 2 "Module:Arduino_Nano" H 1750 3500 50  0001 C CIN
+F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 1750 3500 50  0001 C CNN
+	1    1750 3500
+	1    0    0    -1  
+$EndComp
+Text Label 800  3300 0    50   ~ 0
+INT
+$Comp
+L Connector:Conn_01x10_Female J1
+U 1 1 5FE6B3C7
+P 1400 1450
+F 0 "J1" H 1428 1380 50  0000 L CNN
+F 1 "Conn_01x10_Female" H 1428 1335 50  0001 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Horizontal" H 1400 1450 50  0001 C CNN
+F 3 "~" H 1400 1450 50  0001 C CNN
+	1    1400 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR01
+U 1 1 5FE6D224
+P 1100 1000
+F 0 "#PWR01" H 1100 850 50  0001 C CNN
+F 1 "+12V" H 1115 1173 50  0000 C CNN
+F 2 "" H 1100 1000 50  0001 C CNN
+F 3 "" H 1100 1000 50  0001 C CNN
+	1    1100 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5FE6E4CA
+P 1150 2000
+F 0 "#PWR02" H 1150 1750 50  0001 C CNN
+F 1 "GND" H 1155 1827 50  0000 C CNN
+F 2 "" H 1150 2000 50  0001 C CNN
+F 3 "" H 1150 2000 50  0001 C CNN
+	1    1150 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 2000 1150 1950
+Wire Wire Line
+	1150 1050 1200 1050
+Wire Wire Line
+	1200 1950 1150 1950
+Connection ~ 1150 1950
+Wire Wire Line
+	1100 1000 1100 1150
+Wire Wire Line
+	1100 1150 1200 1150
+Wire Wire Line
+	1200 1850 1100 1850
+Wire Wire Line
+	1100 1850 1100 1150
+Connection ~ 1100 1150
+Wire Wire Line
+	1200 1450 1150 1450
+Connection ~ 1150 1450
+Wire Wire Line
+	1150 1450 1150 1050
+Text Label 750  1250 0    50   ~ 0
+I2C_CLK
+Text Label 750  1350 0    50   ~ 0
+I2C_DAT
+Text Label 750  1550 0    50   ~ 0
+E_STOP
+Text Label 750  1650 0    50   ~ 0
+SYNC
+Text Label 750  1750 0    50   ~ 0
+INT
+Wire Wire Line
+	1200 1250 750  1250
+Wire Wire Line
+	750  1350 1200 1350
+Wire Wire Line
+	1150 1950 1150 1450
+Wire Wire Line
+	1200 1550 750  1550
+Wire Wire Line
+	750  1650 1200 1650
+Wire Wire Line
+	750  1750 1200 1750
+$Comp
+L power:+12V #PWR03
+U 1 1 5FE73FEC
+P 1600 1150
+F 0 "#PWR03" H 1600 1000 50  0001 C CNN
+F 1 "+12V" H 1615 1323 50  0000 C CNN
+F 2 "" H 1600 1150 50  0001 C CNN
+F 3 "" H 1600 1150 50  0001 C CNN
+	1    1600 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 2400 1650 2500
+$Comp
+L OCI_UPL_2_Capacitors:10uF_t C2
+U 1 1 5FE84189
+P 2100 1350
+F 0 "C2" H 2215 1396 50  0000 L CNN
+F 1 "10uF_t" H 2215 1305 50  0000 L CNN
+F 2 "OCI_UPL_FOOTPRINTS:C_2312" H 2100 1100 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qcd8n7" H 2100 1550 30  0001 C CNN
+F 4 "T491C106K025AT" H 2100 1600 30  0001 C CNN "Part #"
+F 5 "2.021" H 2100 1150 30  0001 C CNN "UPL #"
+	1    2100 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 5FE8418F
+P 2100 1550
+F 0 "#PWR09" H 2100 1300 50  0001 C CNN
+F 1 "GND" H 2105 1377 50  0000 C CNN
+F 2 "" H 2100 1550 50  0001 C CNN
+F 3 "" H 2100 1550 50  0001 C CNN
+	1    2100 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 1200 2100 1150
+Wire Wire Line
+	2100 1550 2100 1500
+$Comp
+L power:+5V #PWR08
+U 1 1 5FE8466D
+P 2100 1150
+F 0 "#PWR08" H 2100 1000 50  0001 C CNN
+F 1 "+5V" H 2115 1323 50  0000 C CNN
+F 2 "" H 2100 1150 50  0001 C CNN
+F 3 "" H 2100 1150 50  0001 C CNN
+	1    2100 1150
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	700  5250 2650 5250
+Wire Notes Line
+	2650 5250 2650 750 
+Wire Notes Line
+	2650 750  700  750 
+Wire Notes Line
+	700  750  700  5250
+Wire Notes Line
+	650  5300 2700 5300
+Wire Notes Line
+	2700 5300 2700 600 
+Wire Notes Line
+	2700 600  650  600 
+Wire Notes Line
+	650  600  650  5300
+Text Notes 750  750  0    100  ~ 0
+Core Slice Components
+$Comp
+L Graphic:Logo_Open_Hardware_Small Logo1
+U 1 1 5FE4A934
+P 15700 10300
+F 0 "Logo1" H 15700 10575 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 15700 10075 50  0001 C CNN
+F 2 "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen" H 15700 10300 50  0001 C CNN
+F 3 "~" H 15700 10300 50  0001 C CNN
+	1    15700 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6004 U?
+U 1 1 60EEF741
+P 6650 1450
+F 0 "U?" H 6650 1817 50  0000 C CNN
+F 1 "MCP6004" H 6650 1726 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 6600 1550 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6700 1650 50  0001 C CNN
+	1    6650 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6004 U?
+U 2 1 60EEF747
+P 7800 1350
+F 0 "U?" H 7800 1717 50  0000 C CNN
+F 1 "MCP6004" H 7800 1626 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 7750 1450 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7850 1550 50  0001 C CNN
+	2    7800 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6004 U?
+U 3 1 60EEF74D
+P 8700 1450
+F 0 "U?" H 8700 1817 50  0000 C CNN
+F 1 "MCP6004" H 8700 1726 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 8650 1550 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 8750 1650 50  0001 C CNN
+	3    8700 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6004 U?
+U 4 1 60EEF753
+P 10300 1550
+F 0 "U?" H 10300 1917 50  0000 C CNN
+F 1 "MCP6004" H 10300 1826 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 10250 1650 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 10350 1750 50  0001 C CNN
+	4    10300 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6004 U?
+U 5 1 60EEF759
+P 5400 1350
+F 0 "U?" H 5358 1396 50  0000 L CNN
+F 1 "MCP6004" H 5358 1305 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 5350 1450 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 5450 1550 50  0001 C CNN
+	5    5400 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L OCI_UPL_1_Resistors:10k_t RV?
+U 1 1 60EEF761
+P 6050 1350
+F 0 "RV?" V 6004 1273 50  0000 R CNN
+F 1 "10k_t" V 6095 1273 50  0000 R CNN
+F 2 "OCI_UPL_FOOTPRINTS:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp" H 6050 1200 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qt5j3q" H 6050 1150 30  0001 C CNN
+F 4 "1-1623849-0 " H 6050 1100 30  0001 C CNN "Part #"
+F 5 "1.070" H 6050 1050 30  0001 C CNN "UPL #"
+	1    6050 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 60EEF769
+P 6500 1900
+F 0 "R?" H 6500 2107 50  0000 C CNN
+F 1 "1K" H 6500 2016 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 6500 1750 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 6500 2050 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 6500 2100 30  0001 C CNN "Part #"
+F 5 "1.028" H 6500 1800 39  0001 C CNN "UPL #"
+	1    6500 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 1900 6200 1900
+Wire Wire Line
+	6200 1900 6200 1550
+Wire Wire Line
+	6200 1550 6350 1550
+Wire Wire Line
+	6350 1350 6200 1350
+$Comp
+L power:+5V #PWR?
+U 1 1 60EEF773
+P 6050 1100
+F 0 "#PWR?" H 6050 950 50  0001 C CNN
+F 1 "+5V" H 6065 1273 50  0000 C CNN
+F 2 "" H 6050 1100 50  0001 C CNN
+F 3 "" H 6050 1100 50  0001 C CNN
+	1    6050 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 1100 6050 1200
+$Comp
+L power:GND #PWR?
+U 1 1 60EEF77A
+P 6050 1550
+F 0 "#PWR?" H 6050 1300 50  0001 C CNN
+F 1 "GND" H 6055 1377 50  0000 C CNN
+F 2 "" H 6050 1550 50  0001 C CNN
+F 3 "" H 6050 1550 50  0001 C CNN
+	1    6050 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 1550 6050 1500
+Wire Wire Line
+	6650 1900 7050 1900
+Wire Wire Line
+	7050 1900 7050 1450
+Wire Wire Line
+	7050 1450 6950 1450
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 60EEF786
+P 7250 1450
+F 0 "R?" H 7250 1350 50  0000 C CNN
+F 1 "1K" H 7250 1250 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 7250 1300 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 7250 1600 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 7250 1650 30  0001 C CNN "Part #"
+F 5 "1.028" H 7250 1350 39  0001 C CNN "UPL #"
+	1    7250 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 60EEF78E
+P 7250 1250
+F 0 "R?" H 7250 1457 50  0000 C CNN
+F 1 "1K" H 7250 1366 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 7250 1100 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 7250 1400 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 7250 1450 30  0001 C CNN "Part #"
+F 5 "1.028" H 7250 1150 39  0001 C CNN "UPL #"
+	1    7250 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 1450 7050 1450
+Connection ~ 7050 1450
+Wire Wire Line
+	7400 1450 7450 1450
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 60EEF799
+P 7450 900
+F 0 "R?" V 7404 970 50  0000 L CNN
+F 1 "1K" V 7495 970 50  0000 L CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 7450 750 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 7450 1050 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 7450 1100 30  0001 C CNN "Part #"
+F 5 "1.028" H 7450 800 39  0001 C CNN "UPL #"
+	1    7450 900 
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60EEF79F
+P 7300 750
+F 0 "#PWR?" H 7300 500 50  0001 C CNN
+F 1 "GND" H 7305 577 50  0000 C CNN
+F 2 "" H 7300 750 50  0001 C CNN
+F 3 "" H 7300 750 50  0001 C CNN
+	1    7300 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 1250 7450 1250
+Wire Wire Line
+	7450 1050 7450 1250
+Connection ~ 7450 1250
+Wire Wire Line
+	7450 1250 7500 1250
+Wire Wire Line
+	7300 750  7300 650 
+Wire Wire Line
+	7300 650  7450 650 
+Wire Wire Line
+	7450 650  7450 750 
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 60EEF7AE
+P 7750 1650
+F 0 "R?" H 7750 1550 50  0000 C CNN
+F 1 "1K" H 7750 1450 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 7750 1500 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 7750 1800 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 7750 1850 30  0001 C CNN "Part #"
+F 5 "1.028" H 7750 1550 39  0001 C CNN "UPL #"
+	1    7750 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 1650 7450 1650
+Wire Wire Line
+	7450 1650 7450 1450
+Connection ~ 7450 1450
+Wire Wire Line
+	7450 1450 7500 1450
+Wire Wire Line
+	7900 1650 8200 1650
+Wire Wire Line
+	8200 1650 8200 1350
+Wire Wire Line
+	8200 1350 8100 1350
+Wire Wire Line
+	8400 1350 8200 1350
+Connection ~ 8200 1350
+$Comp
+L OCI_UPL_1_Resistors:10k_t RV?
+U 1 1 60EEF7BF
+P 9250 1750
+F 0 "RV?" V 9204 1674 50  0000 R CNN
+F 1 "10k_t" V 9295 1674 50  0000 R CNN
+F 2 "OCI_UPL_FOOTPRINTS:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp" H 9250 1600 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qt5j3q" H 9250 1550 30  0001 C CNN
+F 4 "1-1623849-0 " H 9250 1500 30  0001 C CNN "Part #"
+F 5 "1.070" H 9250 1450 30  0001 C CNN "UPL #"
+	1    9250 1750
+	0    -1   1    0   
+$EndComp
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 60EEF7C7
+P 8700 1750
+F 0 "R?" H 8700 1650 50  0000 C CNN
+F 1 "1K" H 8700 1550 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 8700 1600 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 8700 1900 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 8700 1950 30  0001 C CNN "Part #"
+F 5 "1.028" H 8700 1650 39  0001 C CNN "UPL #"
+	1    8700 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 1750 8300 1750
+Wire Wire Line
+	8300 1750 8300 1550
+Wire Wire Line
+	8300 1550 8400 1550
+Wire Wire Line
+	8850 1750 9100 1750
+Wire Wire Line
+	9250 1600 9250 1450
+Wire Wire Line
+	9250 1450 9000 1450
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 60EEF7D5
+P 9600 1450
+F 0 "R?" H 9600 1350 50  0000 C CNN
+F 1 "1K" H 9600 1250 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 9600 1300 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 9600 1600 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 9600 1650 30  0001 C CNN "Part #"
+F 5 "1.028" H 9600 1350 39  0001 C CNN "UPL #"
+	1    9600 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 1450 9250 1450
+Connection ~ 9250 1450
+Wire Wire Line
+	9750 1450 9850 1450
+Connection ~ 9850 1450
+Wire Wire Line
+	9850 1450 10000 1450
+Wire Wire Line
+	9850 1900 9850 1450
+Wire Wire Line
+	10000 1650 9950 1650
+Wire Wire Line
+	9950 1650 9950 1800
+Wire Wire Line
+	9950 1800 10650 1800
+Wire Wire Line
+	10650 1800 10650 1550
+Wire Wire Line
+	10650 1550 10600 1550
+$Comp
+L power:GND #PWR?
+U 1 1 60EEF7E6
+P 9850 2250
+F 0 "#PWR?" H 9850 2000 50  0001 C CNN
+F 1 "GND" H 9855 2077 50  0000 C CNN
+F 2 "" H 9850 2250 50  0001 C CNN
+F 3 "" H 9850 2250 50  0001 C CNN
+	1    9850 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 2250 9850 2200
+Wire Wire Line
+	6450 1000 7050 1000
+Wire Wire Line
+	7050 1000 7050 1250
+Wire Wire Line
+	7050 1250 7100 1250
+Connection ~ 10650 1550
+Wire Wire Line
+	10650 1550 11050 1550
+$Comp
+L power:GND #PWR?
+U 1 1 60EEF7F2
+P 5300 1700
+F 0 "#PWR?" H 5300 1450 50  0001 C CNN
+F 1 "GND" H 5305 1527 50  0000 C CNN
+F 2 "" H 5300 1700 50  0001 C CNN
+F 3 "" H 5300 1700 50  0001 C CNN
+	1    5300 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 1700 5300 1650
+$Comp
+L power:+5V #PWR?
+U 1 1 60EEF7F9
+P 5300 950
+F 0 "#PWR?" H 5300 800 50  0001 C CNN
+F 1 "+5V" H 5315 1123 50  0000 C CNN
+F 2 "" H 5300 950 50  0001 C CNN
+F 3 "" H 5300 950 50  0001 C CNN
+	1    5300 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L OCI_UPL_2_Capacitors:1uF_t C?
+U 1 1 60EEF801
+P 4900 1200
+F 0 "C?" H 5015 1246 50  0000 L CNN
+F 1 "1uF_t" H 5015 1155 50  0000 L CNN
+F 2 "OCI_UPL_FOOTPRINTS:C_1206_HandSoldering" H 4900 950 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qcd8w2" H 4900 1400 30  0001 C CNN
+F 4 "T491A105K025AT" H 4900 1450 30  0001 C CNN "Part #"
+F 5 "2.019" H 4900 1000 30  0001 C CNN "UPL #"
+	1    4900 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L OCI_UPL_2_Capacitors:1uF_t C?
+U 1 1 60EEF809
+P 9850 2050
+F 0 "C?" H 9965 2096 50  0000 L CNN
+F 1 "1uF_t" H 9965 2005 50  0000 L CNN
+F 2 "OCI_UPL_FOOTPRINTS:C_1206_HandSoldering" H 9850 1800 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qcd8w2" H 9850 2250 30  0001 C CNN
+F 4 "T491A105K025AT" H 9850 2300 30  0001 C CNN "Part #"
+F 5 "2.019" H 9850 1850 30  0001 C CNN "UPL #"
+	1    9850 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 1050 4900 1000
+Wire Wire Line
+	4900 1000 5300 1000
+Wire Wire Line
+	5300 1000 5300 1050
+Wire Wire Line
+	5300 950  5300 1000
+Connection ~ 5300 1000
+$Comp
+L power:GND #PWR?
+U 1 1 60EEF814
+P 4900 1450
+F 0 "#PWR?" H 4900 1200 50  0001 C CNN
+F 1 "GND" H 4905 1277 50  0000 C CNN
+F 2 "" H 4900 1450 50  0001 C CNN
+F 3 "" H 4900 1450 50  0001 C CNN
+	1    4900 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 1350 4900 1450
+$Comp
+L power:GND #PWR?
+U 1 1 60EEF81B
+P 9250 1950
+F 0 "#PWR?" H 9250 1700 50  0001 C CNN
+F 1 "GND" H 9255 1777 50  0000 C CNN
+F 2 "" H 9250 1950 50  0001 C CNN
+F 3 "" H 9250 1950 50  0001 C CNN
+	1    9250 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 1900 9250 1950
+Text Label 6450 1000 0    50   ~ 0
+Ch0_in
+Text Label 11050 1550 2    50   ~ 0
+CH0_AI
+$Comp
+L Amplifier_Operational:MCP6004 U?
+U 1 1 60EEF824
+P 6650 2850
+F 0 "U?" H 6650 3217 50  0000 C CNN
+F 1 "MCP6004" H 6650 3126 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 6600 2950 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6700 3050 50  0001 C CNN
+	1    6650 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6004 U?
+U 2 1 60EEF82A
+P 7800 2750
+F 0 "U?" H 7800 3117 50  0000 C CNN
+F 1 "MCP6004" H 7800 3026 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 7750 2850 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7850 2950 50  0001 C CNN
+	2    7800 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6004 U?
+U 3 1 60EEF830
+P 8700 2850
+F 0 "U?" H 8700 3217 50  0000 C CNN
+F 1 "MCP6004" H 8700 3126 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 8650 2950 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 8750 3050 50  0001 C CNN
+	3    8700 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6004 U?
+U 4 1 60EEF836
+P 10300 2950
+F 0 "U?" H 10300 3317 50  0000 C CNN
+F 1 "MCP6004" H 10300 3226 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 10250 3050 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 10350 3150 50  0001 C CNN
+	4    10300 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6004 U?
+U 5 1 60EEF83C
+P 5400 2750
+F 0 "U?" H 5358 2796 50  0000 L CNN
+F 1 "MCP6004" H 5358 2705 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 5350 2850 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 5450 2950 50  0001 C CNN
+	5    5400 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L OCI_UPL_1_Resistors:10k_t RV?
+U 1 1 60EEF844
+P 6050 2750
+F 0 "RV?" V 6004 2673 50  0000 R CNN
+F 1 "10k_t" V 6095 2673 50  0000 R CNN
+F 2 "OCI_UPL_FOOTPRINTS:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp" H 6050 2600 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qt5j3q" H 6050 2550 30  0001 C CNN
+F 4 "1-1623849-0 " H 6050 2500 30  0001 C CNN "Part #"
+F 5 "1.070" H 6050 2450 30  0001 C CNN "UPL #"
+	1    6050 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 60EEF84C
+P 6500 3300
+F 0 "R?" H 6500 3507 50  0000 C CNN
+F 1 "1K" H 6500 3416 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 6500 3150 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 6500 3450 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 6500 3500 30  0001 C CNN "Part #"
+F 5 "1.028" H 6500 3200 39  0001 C CNN "UPL #"
+	1    6500 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 3300 6200 3300
+Wire Wire Line
+	6200 3300 6200 2950
+Wire Wire Line
+	6200 2950 6350 2950
+Wire Wire Line
+	6350 2750 6200 2750
+$Comp
+L power:+5V #PWR?
+U 1 1 60EEF856
+P 6050 2500
+F 0 "#PWR?" H 6050 2350 50  0001 C CNN
+F 1 "+5V" H 6065 2673 50  0000 C CNN
+F 2 "" H 6050 2500 50  0001 C CNN
+F 3 "" H 6050 2500 50  0001 C CNN
+	1    6050 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 2500 6050 2600
+$Comp
+L power:GND #PWR?
+U 1 1 60EEF85D
+P 6050 2950
+F 0 "#PWR?" H 6050 2700 50  0001 C CNN
+F 1 "GND" H 6055 2777 50  0000 C CNN
+F 2 "" H 6050 2950 50  0001 C CNN
+F 3 "" H 6050 2950 50  0001 C CNN
+	1    6050 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 2950 6050 2900
+Wire Wire Line
+	6650 3300 7050 3300
+Wire Wire Line
+	7050 3300 7050 2850
+Wire Wire Line
+	7050 2850 6950 2850
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 60EEF869
+P 7250 2850
+F 0 "R?" H 7250 2750 50  0000 C CNN
+F 1 "1K" H 7250 2650 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 7250 2700 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 7250 3000 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 7250 3050 30  0001 C CNN "Part #"
+F 5 "1.028" H 7250 2750 39  0001 C CNN "UPL #"
+	1    7250 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 60EEF871
+P 7250 2650
+F 0 "R?" H 7250 2857 50  0000 C CNN
+F 1 "1K" H 7250 2766 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 7250 2500 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 7250 2800 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 7250 2850 30  0001 C CNN "Part #"
+F 5 "1.028" H 7250 2550 39  0001 C CNN "UPL #"
+	1    7250 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 2850 7050 2850
+Connection ~ 7050 2850
+Wire Wire Line
+	7400 2850 7450 2850
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 60EEF87C
+P 7450 2300
+F 0 "R?" V 7404 2370 50  0000 L CNN
+F 1 "1K" V 7495 2370 50  0000 L CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 7450 2150 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 7450 2450 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 7450 2500 30  0001 C CNN "Part #"
+F 5 "1.028" H 7450 2200 39  0001 C CNN "UPL #"
+	1    7450 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60EEF882
+P 7300 2150
+F 0 "#PWR?" H 7300 1900 50  0001 C CNN
+F 1 "GND" H 7305 1977 50  0000 C CNN
+F 2 "" H 7300 2150 50  0001 C CNN
+F 3 "" H 7300 2150 50  0001 C CNN
+	1    7300 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 2650 7450 2650
+Wire Wire Line
+	7450 2450 7450 2650
+Connection ~ 7450 2650
+Wire Wire Line
+	7450 2650 7500 2650
+Wire Wire Line
+	7300 2150 7300 2050
+Wire Wire Line
+	7300 2050 7450 2050
+Wire Wire Line
+	7450 2050 7450 2150
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 60EEF891
+P 7750 3050
+F 0 "R?" H 7750 2950 50  0000 C CNN
+F 1 "1K" H 7750 2850 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 7750 2900 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 7750 3200 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 7750 3250 30  0001 C CNN "Part #"
+F 5 "1.028" H 7750 2950 39  0001 C CNN "UPL #"
+	1    7750 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 3050 7450 3050
+Wire Wire Line
+	7450 3050 7450 2850
+Connection ~ 7450 2850
+Wire Wire Line
+	7450 2850 7500 2850
+Wire Wire Line
+	7900 3050 8200 3050
+Wire Wire Line
+	8200 3050 8200 2750
+Wire Wire Line
+	8200 2750 8100 2750
+Wire Wire Line
+	8400 2750 8200 2750
+Connection ~ 8200 2750
+$Comp
+L OCI_UPL_1_Resistors:10k_t RV?
+U 1 1 60EEF8A2
+P 9250 3150
+F 0 "RV?" V 9204 3074 50  0000 R CNN
+F 1 "10k_t" V 9295 3074 50  0000 R CNN
+F 2 "OCI_UPL_FOOTPRINTS:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp" H 9250 3000 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qt5j3q" H 9250 2950 30  0001 C CNN
+F 4 "1-1623849-0 " H 9250 2900 30  0001 C CNN "Part #"
+F 5 "1.070" H 9250 2850 30  0001 C CNN "UPL #"
+	1    9250 3150
+	0    -1   1    0   
+$EndComp
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 60EEF8AA
+P 8700 3150
+F 0 "R?" H 8700 3050 50  0000 C CNN
+F 1 "1K" H 8700 2950 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 8700 3000 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 8700 3300 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 8700 3350 30  0001 C CNN "Part #"
+F 5 "1.028" H 8700 3050 39  0001 C CNN "UPL #"
+	1    8700 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 3150 8300 3150
+Wire Wire Line
+	8300 3150 8300 2950
+Wire Wire Line
+	8300 2950 8400 2950
+Wire Wire Line
+	8850 3150 9100 3150
+Wire Wire Line
+	9250 3000 9250 2850
+Wire Wire Line
+	9250 2850 9000 2850
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 60EEF8B8
+P 9600 2850
+F 0 "R?" H 9600 2750 50  0000 C CNN
+F 1 "1K" H 9600 2650 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 9600 2700 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 9600 3000 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 9600 3050 30  0001 C CNN "Part #"
+F 5 "1.028" H 9600 2750 39  0001 C CNN "UPL #"
+	1    9600 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 2850 9250 2850
+Connection ~ 9250 2850
+Wire Wire Line
+	9750 2850 9850 2850
+Connection ~ 9850 2850
+Wire Wire Line
+	9850 2850 10000 2850
+Wire Wire Line
+	9850 3300 9850 2850
+Wire Wire Line
+	10000 3050 9950 3050
+Wire Wire Line
+	9950 3050 9950 3200
+Wire Wire Line
+	9950 3200 10650 3200
+Wire Wire Line
+	10650 3200 10650 2950
+Wire Wire Line
+	10650 2950 10600 2950
+$Comp
+L power:GND #PWR?
+U 1 1 60EEF8C9
+P 9850 3650
+F 0 "#PWR?" H 9850 3400 50  0001 C CNN
+F 1 "GND" H 9855 3477 50  0000 C CNN
+F 2 "" H 9850 3650 50  0001 C CNN
+F 3 "" H 9850 3650 50  0001 C CNN
+	1    9850 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 3650 9850 3600
+Wire Wire Line
+	6450 2400 7050 2400
+Wire Wire Line
+	7050 2400 7050 2650
+Wire Wire Line
+	7050 2650 7100 2650
+Connection ~ 10650 2950
+Wire Wire Line
+	10650 2950 11050 2950
+$Comp
+L power:GND #PWR?
+U 1 1 60EEF8D5
+P 5300 3100
+F 0 "#PWR?" H 5300 2850 50  0001 C CNN
+F 1 "GND" H 5305 2927 50  0000 C CNN
+F 2 "" H 5300 3100 50  0001 C CNN
+F 3 "" H 5300 3100 50  0001 C CNN
+	1    5300 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 3100 5300 3050
+$Comp
+L power:+5V #PWR?
+U 1 1 60EEF8DC
+P 5300 2350
+F 0 "#PWR?" H 5300 2200 50  0001 C CNN
+F 1 "+5V" H 5315 2523 50  0000 C CNN
+F 2 "" H 5300 2350 50  0001 C CNN
+F 3 "" H 5300 2350 50  0001 C CNN
+	1    5300 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L OCI_UPL_2_Capacitors:1uF_t C?
+U 1 1 60EEF8E4
+P 4900 2600
+F 0 "C?" H 5015 2646 50  0000 L CNN
+F 1 "1uF_t" H 5015 2555 50  0000 L CNN
+F 2 "OCI_UPL_FOOTPRINTS:C_1206_HandSoldering" H 4900 2350 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qcd8w2" H 4900 2800 30  0001 C CNN
+F 4 "T491A105K025AT" H 4900 2850 30  0001 C CNN "Part #"
+F 5 "2.019" H 4900 2400 30  0001 C CNN "UPL #"
+	1    4900 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L OCI_UPL_2_Capacitors:1uF_t C?
+U 1 1 60EEF8EC
+P 9850 3450
+F 0 "C?" H 9965 3496 50  0000 L CNN
+F 1 "1uF_t" H 9965 3405 50  0000 L CNN
+F 2 "OCI_UPL_FOOTPRINTS:C_1206_HandSoldering" H 9850 3200 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qcd8w2" H 9850 3650 30  0001 C CNN
+F 4 "T491A105K025AT" H 9850 3700 30  0001 C CNN "Part #"
+F 5 "2.019" H 9850 3250 30  0001 C CNN "UPL #"
+	1    9850 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 2450 4900 2400
+Wire Wire Line
+	4900 2400 5300 2400
+Wire Wire Line
+	5300 2400 5300 2450
+Wire Wire Line
+	5300 2350 5300 2400
+Connection ~ 5300 2400
+$Comp
+L power:GND #PWR?
+U 1 1 60EEF8F7
+P 4900 2850
+F 0 "#PWR?" H 4900 2600 50  0001 C CNN
+F 1 "GND" H 4905 2677 50  0000 C CNN
+F 2 "" H 4900 2850 50  0001 C CNN
+F 3 "" H 4900 2850 50  0001 C CNN
+	1    4900 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 2750 4900 2850
+$Comp
+L power:GND #PWR?
+U 1 1 60EEF8FE
+P 9250 3350
+F 0 "#PWR?" H 9250 3100 50  0001 C CNN
+F 1 "GND" H 9255 3177 50  0000 C CNN
+F 2 "" H 9250 3350 50  0001 C CNN
+F 3 "" H 9250 3350 50  0001 C CNN
+	1    9250 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 3300 9250 3350
+Text Label 6450 2400 0    50   ~ 0
+Ch1_in
+Text Label 11050 2950 2    50   ~ 0
+CH1_AI
+$Comp
+L Amplifier_Operational:MCP6004 U?
+U 1 1 60FA98A5
+P 6650 4250
+F 0 "U?" H 6650 4617 50  0000 C CNN
+F 1 "MCP6004" H 6650 4526 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 6600 4350 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6700 4450 50  0001 C CNN
+	1    6650 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6004 U?
+U 2 1 60FA98AB
+P 7800 4150
+F 0 "U?" H 7800 4517 50  0000 C CNN
+F 1 "MCP6004" H 7800 4426 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 7750 4250 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7850 4350 50  0001 C CNN
+	2    7800 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6004 U?
+U 3 1 60FA98B1
+P 8700 4250
+F 0 "U?" H 8700 4617 50  0000 C CNN
+F 1 "MCP6004" H 8700 4526 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 8650 4350 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 8750 4450 50  0001 C CNN
+	3    8700 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6004 U?
+U 4 1 60FA98B7
+P 10300 4350
+F 0 "U?" H 10300 4717 50  0000 C CNN
+F 1 "MCP6004" H 10300 4626 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 10250 4450 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 10350 4550 50  0001 C CNN
+	4    10300 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6004 U?
+U 5 1 60FA98BD
+P 5400 4150
+F 0 "U?" H 5358 4196 50  0000 L CNN
+F 1 "MCP6004" H 5358 4105 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 5350 4250 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 5450 4350 50  0001 C CNN
+	5    5400 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L OCI_UPL_1_Resistors:10k_t RV?
+U 1 1 60FA98C5
+P 6050 4150
+F 0 "RV?" V 6004 4073 50  0000 R CNN
+F 1 "10k_t" V 6095 4073 50  0000 R CNN
+F 2 "OCI_UPL_FOOTPRINTS:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp" H 6050 4000 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qt5j3q" H 6050 3950 30  0001 C CNN
+F 4 "1-1623849-0 " H 6050 3900 30  0001 C CNN "Part #"
+F 5 "1.070" H 6050 3850 30  0001 C CNN "UPL #"
+	1    6050 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 60FA98CD
+P 6500 4700
+F 0 "R?" H 6500 4907 50  0000 C CNN
+F 1 "1K" H 6500 4816 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 6500 4550 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 6500 4850 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 6500 4900 30  0001 C CNN "Part #"
+F 5 "1.028" H 6500 4600 39  0001 C CNN "UPL #"
+	1    6500 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 4700 6200 4700
+Wire Wire Line
+	6200 4700 6200 4350
+Wire Wire Line
+	6200 4350 6350 4350
+Wire Wire Line
+	6350 4150 6200 4150
+$Comp
+L power:+5V #PWR?
+U 1 1 60FA98D7
+P 6050 3900
+F 0 "#PWR?" H 6050 3750 50  0001 C CNN
+F 1 "+5V" H 6065 4073 50  0000 C CNN
+F 2 "" H 6050 3900 50  0001 C CNN
+F 3 "" H 6050 3900 50  0001 C CNN
+	1    6050 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 3900 6050 4000
+$Comp
+L power:GND #PWR?
+U 1 1 60FA98DE
+P 6050 4350
+F 0 "#PWR?" H 6050 4100 50  0001 C CNN
+F 1 "GND" H 6055 4177 50  0000 C CNN
+F 2 "" H 6050 4350 50  0001 C CNN
+F 3 "" H 6050 4350 50  0001 C CNN
+	1    6050 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 4350 6050 4300
+Wire Wire Line
+	6650 4700 7050 4700
+Wire Wire Line
+	7050 4700 7050 4250
+Wire Wire Line
+	7050 4250 6950 4250
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 60FA98EA
+P 7250 4250
+F 0 "R?" H 7250 4150 50  0000 C CNN
+F 1 "1K" H 7250 4050 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 7250 4100 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 7250 4400 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 7250 4450 30  0001 C CNN "Part #"
+F 5 "1.028" H 7250 4150 39  0001 C CNN "UPL #"
+	1    7250 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 60FA98F2
+P 7250 4050
+F 0 "R?" H 7250 4257 50  0000 C CNN
+F 1 "1K" H 7250 4166 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 7250 3900 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 7250 4200 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 7250 4250 30  0001 C CNN "Part #"
+F 5 "1.028" H 7250 3950 39  0001 C CNN "UPL #"
+	1    7250 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 4250 7050 4250
+Connection ~ 7050 4250
+Wire Wire Line
+	7400 4250 7450 4250
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 60FA98FD
+P 7450 3700
+F 0 "R?" V 7404 3770 50  0000 L CNN
+F 1 "1K" V 7495 3770 50  0000 L CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 7450 3550 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 7450 3850 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 7450 3900 30  0001 C CNN "Part #"
+F 5 "1.028" H 7450 3600 39  0001 C CNN "UPL #"
+	1    7450 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60FA9903
+P 7300 3550
+F 0 "#PWR?" H 7300 3300 50  0001 C CNN
+F 1 "GND" H 7305 3377 50  0000 C CNN
+F 2 "" H 7300 3550 50  0001 C CNN
+F 3 "" H 7300 3550 50  0001 C CNN
+	1    7300 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 4050 7450 4050
+Wire Wire Line
+	7450 3850 7450 4050
+Connection ~ 7450 4050
+Wire Wire Line
+	7450 4050 7500 4050
+Wire Wire Line
+	7300 3550 7300 3450
+Wire Wire Line
+	7300 3450 7450 3450
+Wire Wire Line
+	7450 3450 7450 3550
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 60FA9912
+P 7750 4450
+F 0 "R?" H 7750 4350 50  0000 C CNN
+F 1 "1K" H 7750 4250 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 7750 4300 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 7750 4600 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 7750 4650 30  0001 C CNN "Part #"
+F 5 "1.028" H 7750 4350 39  0001 C CNN "UPL #"
+	1    7750 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 4450 7450 4450
+Wire Wire Line
+	7450 4450 7450 4250
+Connection ~ 7450 4250
+Wire Wire Line
+	7450 4250 7500 4250
+Wire Wire Line
+	7900 4450 8200 4450
+Wire Wire Line
+	8200 4450 8200 4150
+Wire Wire Line
+	8200 4150 8100 4150
+Wire Wire Line
+	8400 4150 8200 4150
+Connection ~ 8200 4150
+$Comp
+L OCI_UPL_1_Resistors:10k_t RV?
+U 1 1 60FA9923
+P 9250 4550
+F 0 "RV?" V 9204 4474 50  0000 R CNN
+F 1 "10k_t" V 9295 4474 50  0000 R CNN
+F 2 "OCI_UPL_FOOTPRINTS:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp" H 9250 4400 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qt5j3q" H 9250 4350 30  0001 C CNN
+F 4 "1-1623849-0 " H 9250 4300 30  0001 C CNN "Part #"
+F 5 "1.070" H 9250 4250 30  0001 C CNN "UPL #"
+	1    9250 4550
+	0    -1   1    0   
+$EndComp
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 60FA992B
+P 8700 4550
+F 0 "R?" H 8700 4450 50  0000 C CNN
+F 1 "1K" H 8700 4350 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 8700 4400 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 8700 4700 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 8700 4750 30  0001 C CNN "Part #"
+F 5 "1.028" H 8700 4450 39  0001 C CNN "UPL #"
+	1    8700 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 4550 8300 4550
+Wire Wire Line
+	8300 4550 8300 4350
+Wire Wire Line
+	8300 4350 8400 4350
+Wire Wire Line
+	8850 4550 9100 4550
+Wire Wire Line
+	9250 4400 9250 4250
+Wire Wire Line
+	9250 4250 9000 4250
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 60FA9939
+P 9600 4250
+F 0 "R?" H 9600 4150 50  0000 C CNN
+F 1 "1K" H 9600 4050 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 9600 4100 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 9600 4400 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 9600 4450 30  0001 C CNN "Part #"
+F 5 "1.028" H 9600 4150 39  0001 C CNN "UPL #"
+	1    9600 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 4250 9250 4250
+Connection ~ 9250 4250
+Wire Wire Line
+	9750 4250 9850 4250
+Connection ~ 9850 4250
+Wire Wire Line
+	9850 4250 10000 4250
+Wire Wire Line
+	9850 4700 9850 4250
+Wire Wire Line
+	10000 4450 9950 4450
+Wire Wire Line
+	9950 4450 9950 4600
+Wire Wire Line
+	9950 4600 10650 4600
+Wire Wire Line
+	10650 4600 10650 4350
+Wire Wire Line
+	10650 4350 10600 4350
+$Comp
+L power:GND #PWR?
+U 1 1 60FA994A
+P 9850 5050
+F 0 "#PWR?" H 9850 4800 50  0001 C CNN
+F 1 "GND" H 9855 4877 50  0000 C CNN
+F 2 "" H 9850 5050 50  0001 C CNN
+F 3 "" H 9850 5050 50  0001 C CNN
+	1    9850 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 5050 9850 5000
+Wire Wire Line
+	6450 3800 7050 3800
+Wire Wire Line
+	7050 3800 7050 4050
+Wire Wire Line
+	7050 4050 7100 4050
+Connection ~ 10650 4350
+Wire Wire Line
+	10650 4350 11050 4350
+$Comp
+L power:GND #PWR?
+U 1 1 60FA9956
+P 5300 4500
+F 0 "#PWR?" H 5300 4250 50  0001 C CNN
+F 1 "GND" H 5305 4327 50  0000 C CNN
+F 2 "" H 5300 4500 50  0001 C CNN
+F 3 "" H 5300 4500 50  0001 C CNN
+	1    5300 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 4500 5300 4450
+$Comp
+L power:+5V #PWR?
+U 1 1 60FA995D
+P 5300 3750
+F 0 "#PWR?" H 5300 3600 50  0001 C CNN
+F 1 "+5V" H 5315 3923 50  0000 C CNN
+F 2 "" H 5300 3750 50  0001 C CNN
+F 3 "" H 5300 3750 50  0001 C CNN
+	1    5300 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L OCI_UPL_2_Capacitors:1uF_t C?
+U 1 1 60FA9965
+P 4900 4000
+F 0 "C?" H 5015 4046 50  0000 L CNN
+F 1 "1uF_t" H 5015 3955 50  0000 L CNN
+F 2 "OCI_UPL_FOOTPRINTS:C_1206_HandSoldering" H 4900 3750 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qcd8w2" H 4900 4200 30  0001 C CNN
+F 4 "T491A105K025AT" H 4900 4250 30  0001 C CNN "Part #"
+F 5 "2.019" H 4900 3800 30  0001 C CNN "UPL #"
+	1    4900 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L OCI_UPL_2_Capacitors:1uF_t C?
+U 1 1 60FA996D
+P 9850 4850
+F 0 "C?" H 9965 4896 50  0000 L CNN
+F 1 "1uF_t" H 9965 4805 50  0000 L CNN
+F 2 "OCI_UPL_FOOTPRINTS:C_1206_HandSoldering" H 9850 4600 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qcd8w2" H 9850 5050 30  0001 C CNN
+F 4 "T491A105K025AT" H 9850 5100 30  0001 C CNN "Part #"
+F 5 "2.019" H 9850 4650 30  0001 C CNN "UPL #"
+	1    9850 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3850 4900 3800
+Wire Wire Line
+	4900 3800 5300 3800
+Wire Wire Line
+	5300 3800 5300 3850
+Wire Wire Line
+	5300 3750 5300 3800
+Connection ~ 5300 3800
+$Comp
+L power:GND #PWR?
+U 1 1 60FA9978
+P 4900 4250
+F 0 "#PWR?" H 4900 4000 50  0001 C CNN
+F 1 "GND" H 4905 4077 50  0000 C CNN
+F 2 "" H 4900 4250 50  0001 C CNN
+F 3 "" H 4900 4250 50  0001 C CNN
+	1    4900 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 4150 4900 4250
+$Comp
+L power:GND #PWR?
+U 1 1 60FA997F
+P 9250 4750
+F 0 "#PWR?" H 9250 4500 50  0001 C CNN
+F 1 "GND" H 9255 4577 50  0000 C CNN
+F 2 "" H 9250 4750 50  0001 C CNN
+F 3 "" H 9250 4750 50  0001 C CNN
+	1    9250 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 4700 9250 4750
+Text Label 6450 3800 0    50   ~ 0
+Ch2_in
+Text Label 11050 4350 2    50   ~ 0
+CH2_AI
+$Comp
+L Amplifier_Operational:MCP6004 U?
+U 1 1 60FA9988
+P 6650 5650
+F 0 "U?" H 6650 6017 50  0000 C CNN
+F 1 "MCP6004" H 6650 5926 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 6600 5750 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6700 5850 50  0001 C CNN
+	1    6650 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6004 U?
+U 2 1 60FA998E
+P 7800 5550
+F 0 "U?" H 7800 5917 50  0000 C CNN
+F 1 "MCP6004" H 7800 5826 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 7750 5650 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7850 5750 50  0001 C CNN
+	2    7800 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6004 U?
+U 3 1 60FA9994
+P 8700 5650
+F 0 "U?" H 8700 6017 50  0000 C CNN
+F 1 "MCP6004" H 8700 5926 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 8650 5750 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 8750 5850 50  0001 C CNN
+	3    8700 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6004 U?
+U 4 1 60FA999A
+P 10300 5750
+F 0 "U?" H 10300 6117 50  0000 C CNN
+F 1 "MCP6004" H 10300 6026 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 10250 5850 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 10350 5950 50  0001 C CNN
+	4    10300 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6004 U?
+U 5 1 60FA99A0
+P 5400 5550
+F 0 "U?" H 5358 5596 50  0000 L CNN
+F 1 "MCP6004" H 5358 5505 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 5350 5650 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 5450 5750 50  0001 C CNN
+	5    5400 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L OCI_UPL_1_Resistors:10k_t RV?
+U 1 1 60FA99A8
+P 6050 5550
+F 0 "RV?" V 6004 5473 50  0000 R CNN
+F 1 "10k_t" V 6095 5473 50  0000 R CNN
+F 2 "OCI_UPL_FOOTPRINTS:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp" H 6050 5400 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qt5j3q" H 6050 5350 30  0001 C CNN
+F 4 "1-1623849-0 " H 6050 5300 30  0001 C CNN "Part #"
+F 5 "1.070" H 6050 5250 30  0001 C CNN "UPL #"
+	1    6050 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 60FA99B0
+P 6500 6100
+F 0 "R?" H 6500 6307 50  0000 C CNN
+F 1 "1K" H 6500 6216 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 6500 5950 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 6500 6250 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 6500 6300 30  0001 C CNN "Part #"
+F 5 "1.028" H 6500 6000 39  0001 C CNN "UPL #"
+	1    6500 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 6100 6200 6100
+Wire Wire Line
+	6200 6100 6200 5750
+Wire Wire Line
+	6200 5750 6350 5750
+Wire Wire Line
+	6350 5550 6200 5550
+$Comp
+L power:+5V #PWR?
+U 1 1 60FA99BA
+P 6050 5300
+F 0 "#PWR?" H 6050 5150 50  0001 C CNN
+F 1 "+5V" H 6065 5473 50  0000 C CNN
+F 2 "" H 6050 5300 50  0001 C CNN
+F 3 "" H 6050 5300 50  0001 C CNN
+	1    6050 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 5300 6050 5400
+$Comp
+L power:GND #PWR?
+U 1 1 60FA99C1
+P 6050 5750
+F 0 "#PWR?" H 6050 5500 50  0001 C CNN
+F 1 "GND" H 6055 5577 50  0000 C CNN
+F 2 "" H 6050 5750 50  0001 C CNN
+F 3 "" H 6050 5750 50  0001 C CNN
+	1    6050 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 5750 6050 5700
+Wire Wire Line
+	6650 6100 7050 6100
+Wire Wire Line
+	7050 6100 7050 5650
+Wire Wire Line
+	7050 5650 6950 5650
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 60FA99CD
+P 7250 5650
+F 0 "R?" H 7250 5550 50  0000 C CNN
+F 1 "1K" H 7250 5450 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 7250 5500 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 7250 5800 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 7250 5850 30  0001 C CNN "Part #"
+F 5 "1.028" H 7250 5550 39  0001 C CNN "UPL #"
+	1    7250 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 60FA99D5
+P 7250 5450
+F 0 "R?" H 7250 5657 50  0000 C CNN
+F 1 "1K" H 7250 5566 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 7250 5300 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 7250 5600 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 7250 5650 30  0001 C CNN "Part #"
+F 5 "1.028" H 7250 5350 39  0001 C CNN "UPL #"
+	1    7250 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 5650 7050 5650
+Connection ~ 7050 5650
+Wire Wire Line
+	7400 5650 7450 5650
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 60FA99E0
+P 7450 5100
+F 0 "R?" V 7404 5170 50  0000 L CNN
+F 1 "1K" V 7495 5170 50  0000 L CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 7450 4950 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 7450 5250 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 7450 5300 30  0001 C CNN "Part #"
+F 5 "1.028" H 7450 5000 39  0001 C CNN "UPL #"
+	1    7450 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60FA99E6
+P 7300 4950
+F 0 "#PWR?" H 7300 4700 50  0001 C CNN
+F 1 "GND" H 7305 4777 50  0000 C CNN
+F 2 "" H 7300 4950 50  0001 C CNN
+F 3 "" H 7300 4950 50  0001 C CNN
+	1    7300 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 5450 7450 5450
+Wire Wire Line
+	7450 5250 7450 5450
+Connection ~ 7450 5450
+Wire Wire Line
+	7450 5450 7500 5450
+Wire Wire Line
+	7300 4950 7300 4850
+Wire Wire Line
+	7300 4850 7450 4850
+Wire Wire Line
+	7450 4850 7450 4950
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 60FA99F5
+P 7750 5850
+F 0 "R?" H 7750 5750 50  0000 C CNN
+F 1 "1K" H 7750 5650 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 7750 5700 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 7750 6000 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 7750 6050 30  0001 C CNN "Part #"
+F 5 "1.028" H 7750 5750 39  0001 C CNN "UPL #"
+	1    7750 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 5850 7450 5850
+Wire Wire Line
+	7450 5850 7450 5650
+Connection ~ 7450 5650
+Wire Wire Line
+	7450 5650 7500 5650
+Wire Wire Line
+	7900 5850 8200 5850
+Wire Wire Line
+	8200 5850 8200 5550
+Wire Wire Line
+	8200 5550 8100 5550
+Wire Wire Line
+	8400 5550 8200 5550
+Connection ~ 8200 5550
+$Comp
+L OCI_UPL_1_Resistors:10k_t RV?
+U 1 1 60FA9A06
+P 9250 5950
+F 0 "RV?" V 9204 5874 50  0000 R CNN
+F 1 "10k_t" V 9295 5874 50  0000 R CNN
+F 2 "OCI_UPL_FOOTPRINTS:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp" H 9250 5800 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qt5j3q" H 9250 5750 30  0001 C CNN
+F 4 "1-1623849-0 " H 9250 5700 30  0001 C CNN "Part #"
+F 5 "1.070" H 9250 5650 30  0001 C CNN "UPL #"
+	1    9250 5950
+	0    -1   1    0   
+$EndComp
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 60FA9A0E
+P 8700 5950
+F 0 "R?" H 8700 5850 50  0000 C CNN
+F 1 "1K" H 8700 5750 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 8700 5800 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 8700 6100 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 8700 6150 30  0001 C CNN "Part #"
+F 5 "1.028" H 8700 5850 39  0001 C CNN "UPL #"
+	1    8700 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 5950 8300 5950
+Wire Wire Line
+	8300 5950 8300 5750
+Wire Wire Line
+	8300 5750 8400 5750
+Wire Wire Line
+	8850 5950 9100 5950
+Wire Wire Line
+	9250 5800 9250 5650
+Wire Wire Line
+	9250 5650 9000 5650
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 60FA9A1C
+P 9600 5650
+F 0 "R?" H 9600 5550 50  0000 C CNN
+F 1 "1K" H 9600 5450 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 9600 5500 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 9600 5800 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 9600 5850 30  0001 C CNN "Part #"
+F 5 "1.028" H 9600 5550 39  0001 C CNN "UPL #"
+	1    9600 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 5650 9250 5650
+Connection ~ 9250 5650
+Wire Wire Line
+	9750 5650 9850 5650
+Connection ~ 9850 5650
+Wire Wire Line
+	9850 5650 10000 5650
+Wire Wire Line
+	9850 6100 9850 5650
+Wire Wire Line
+	10000 5850 9950 5850
+Wire Wire Line
+	9950 5850 9950 6000
+Wire Wire Line
+	9950 6000 10650 6000
+Wire Wire Line
+	10650 6000 10650 5750
+Wire Wire Line
+	10650 5750 10600 5750
+$Comp
+L power:GND #PWR?
+U 1 1 60FA9A2D
+P 9850 6450
+F 0 "#PWR?" H 9850 6200 50  0001 C CNN
+F 1 "GND" H 9855 6277 50  0000 C CNN
+F 2 "" H 9850 6450 50  0001 C CNN
+F 3 "" H 9850 6450 50  0001 C CNN
+	1    9850 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 6450 9850 6400
+Wire Wire Line
+	6450 5200 7050 5200
+Wire Wire Line
+	7050 5200 7050 5450
+Wire Wire Line
+	7050 5450 7100 5450
+Connection ~ 10650 5750
+Wire Wire Line
+	10650 5750 11050 5750
+$Comp
+L power:GND #PWR?
+U 1 1 60FA9A39
+P 5300 5900
+F 0 "#PWR?" H 5300 5650 50  0001 C CNN
+F 1 "GND" H 5305 5727 50  0000 C CNN
+F 2 "" H 5300 5900 50  0001 C CNN
+F 3 "" H 5300 5900 50  0001 C CNN
+	1    5300 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 5900 5300 5850
+$Comp
+L power:+5V #PWR?
+U 1 1 60FA9A40
+P 5300 5150
+F 0 "#PWR?" H 5300 5000 50  0001 C CNN
+F 1 "+5V" H 5315 5323 50  0000 C CNN
+F 2 "" H 5300 5150 50  0001 C CNN
+F 3 "" H 5300 5150 50  0001 C CNN
+	1    5300 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L OCI_UPL_2_Capacitors:1uF_t C?
+U 1 1 60FA9A48
+P 4900 5400
+F 0 "C?" H 5015 5446 50  0000 L CNN
+F 1 "1uF_t" H 5015 5355 50  0000 L CNN
+F 2 "OCI_UPL_FOOTPRINTS:C_1206_HandSoldering" H 4900 5150 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qcd8w2" H 4900 5600 30  0001 C CNN
+F 4 "T491A105K025AT" H 4900 5650 30  0001 C CNN "Part #"
+F 5 "2.019" H 4900 5200 30  0001 C CNN "UPL #"
+	1    4900 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L OCI_UPL_2_Capacitors:1uF_t C?
+U 1 1 60FA9A50
+P 9850 6250
+F 0 "C?" H 9965 6296 50  0000 L CNN
+F 1 "1uF_t" H 9965 6205 50  0000 L CNN
+F 2 "OCI_UPL_FOOTPRINTS:C_1206_HandSoldering" H 9850 6000 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qcd8w2" H 9850 6450 30  0001 C CNN
+F 4 "T491A105K025AT" H 9850 6500 30  0001 C CNN "Part #"
+F 5 "2.019" H 9850 6050 30  0001 C CNN "UPL #"
+	1    9850 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 5250 4900 5200
+Wire Wire Line
+	4900 5200 5300 5200
+Wire Wire Line
+	5300 5200 5300 5250
+Wire Wire Line
+	5300 5150 5300 5200
+Connection ~ 5300 5200
+$Comp
+L power:GND #PWR?
+U 1 1 60FA9A5B
+P 4900 5650
+F 0 "#PWR?" H 4900 5400 50  0001 C CNN
+F 1 "GND" H 4905 5477 50  0000 C CNN
+F 2 "" H 4900 5650 50  0001 C CNN
+F 3 "" H 4900 5650 50  0001 C CNN
+	1    4900 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 5550 4900 5650
+$Comp
+L power:GND #PWR?
+U 1 1 60FA9A62
+P 9250 6150
+F 0 "#PWR?" H 9250 5900 50  0001 C CNN
+F 1 "GND" H 9255 5977 50  0000 C CNN
+F 2 "" H 9250 6150 50  0001 C CNN
+F 3 "" H 9250 6150 50  0001 C CNN
+	1    9250 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 6100 9250 6150
+Text Label 6450 5200 0    50   ~ 0
+Ch3_in
+Text Label 11050 5750 2    50   ~ 0
+CH3_AI
+$Comp
+L Amplifier_Operational:MCP6004 U?
+U 1 1 610203B4
+P 6650 7050
+F 0 "U?" H 6650 7417 50  0000 C CNN
+F 1 "MCP6004" H 6650 7326 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 6600 7150 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6700 7250 50  0001 C CNN
+	1    6650 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6004 U?
+U 2 1 610203BA
+P 7800 6950
+F 0 "U?" H 7800 7317 50  0000 C CNN
+F 1 "MCP6004" H 7800 7226 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 7750 7050 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7850 7150 50  0001 C CNN
+	2    7800 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6004 U?
+U 3 1 610203C0
+P 8700 7050
+F 0 "U?" H 8700 7417 50  0000 C CNN
+F 1 "MCP6004" H 8700 7326 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 8650 7150 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 8750 7250 50  0001 C CNN
+	3    8700 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6004 U?
+U 4 1 610203C6
+P 10300 7150
+F 0 "U?" H 10300 7517 50  0000 C CNN
+F 1 "MCP6004" H 10300 7426 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 10250 7250 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 10350 7350 50  0001 C CNN
+	4    10300 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6004 U?
+U 5 1 610203CC
+P 5400 6950
+F 0 "U?" H 5358 6996 50  0000 L CNN
+F 1 "MCP6004" H 5358 6905 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 5350 7050 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 5450 7150 50  0001 C CNN
+	5    5400 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L OCI_UPL_1_Resistors:10k_t RV?
+U 1 1 610203D4
+P 6050 6950
+F 0 "RV?" V 6004 6873 50  0000 R CNN
+F 1 "10k_t" V 6095 6873 50  0000 R CNN
+F 2 "OCI_UPL_FOOTPRINTS:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp" H 6050 6800 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qt5j3q" H 6050 6750 30  0001 C CNN
+F 4 "1-1623849-0 " H 6050 6700 30  0001 C CNN "Part #"
+F 5 "1.070" H 6050 6650 30  0001 C CNN "UPL #"
+	1    6050 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 610203DC
+P 6500 7500
+F 0 "R?" H 6500 7707 50  0000 C CNN
+F 1 "1K" H 6500 7616 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 6500 7350 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 6500 7650 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 6500 7700 30  0001 C CNN "Part #"
+F 5 "1.028" H 6500 7400 39  0001 C CNN "UPL #"
+	1    6500 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 7500 6200 7500
+Wire Wire Line
+	6200 7500 6200 7150
+Wire Wire Line
+	6200 7150 6350 7150
+Wire Wire Line
+	6350 6950 6200 6950
+$Comp
+L power:+5V #PWR?
+U 1 1 610203E6
+P 6050 6700
+F 0 "#PWR?" H 6050 6550 50  0001 C CNN
+F 1 "+5V" H 6065 6873 50  0000 C CNN
+F 2 "" H 6050 6700 50  0001 C CNN
+F 3 "" H 6050 6700 50  0001 C CNN
+	1    6050 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 6700 6050 6800
+$Comp
+L power:GND #PWR?
+U 1 1 610203ED
+P 6050 7150
+F 0 "#PWR?" H 6050 6900 50  0001 C CNN
+F 1 "GND" H 6055 6977 50  0000 C CNN
+F 2 "" H 6050 7150 50  0001 C CNN
+F 3 "" H 6050 7150 50  0001 C CNN
+	1    6050 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 7150 6050 7100
+Wire Wire Line
+	6650 7500 7050 7500
+Wire Wire Line
+	7050 7500 7050 7050
+Wire Wire Line
+	7050 7050 6950 7050
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 610203F9
+P 7250 7050
+F 0 "R?" H 7250 6950 50  0000 C CNN
+F 1 "1K" H 7250 6850 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 7250 6900 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 7250 7200 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 7250 7250 30  0001 C CNN "Part #"
+F 5 "1.028" H 7250 6950 39  0001 C CNN "UPL #"
+	1    7250 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 61020401
+P 7250 6850
+F 0 "R?" H 7250 7057 50  0000 C CNN
+F 1 "1K" H 7250 6966 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 7250 6700 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 7250 7000 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 7250 7050 30  0001 C CNN "Part #"
+F 5 "1.028" H 7250 6750 39  0001 C CNN "UPL #"
+	1    7250 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 7050 7050 7050
+Connection ~ 7050 7050
+Wire Wire Line
+	7400 7050 7450 7050
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 6102040C
+P 7450 6500
+F 0 "R?" V 7404 6570 50  0000 L CNN
+F 1 "1K" V 7495 6570 50  0000 L CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 7450 6350 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 7450 6650 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 7450 6700 30  0001 C CNN "Part #"
+F 5 "1.028" H 7450 6400 39  0001 C CNN "UPL #"
+	1    7450 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61020412
+P 7300 6350
+F 0 "#PWR?" H 7300 6100 50  0001 C CNN
+F 1 "GND" H 7305 6177 50  0000 C CNN
+F 2 "" H 7300 6350 50  0001 C CNN
+F 3 "" H 7300 6350 50  0001 C CNN
+	1    7300 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 6850 7450 6850
+Wire Wire Line
+	7450 6650 7450 6850
+Connection ~ 7450 6850
+Wire Wire Line
+	7450 6850 7500 6850
+Wire Wire Line
+	7300 6350 7300 6250
+Wire Wire Line
+	7300 6250 7450 6250
+Wire Wire Line
+	7450 6250 7450 6350
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 61020421
+P 7750 7250
+F 0 "R?" H 7750 7150 50  0000 C CNN
+F 1 "1K" H 7750 7050 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 7750 7100 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 7750 7400 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 7750 7450 30  0001 C CNN "Part #"
+F 5 "1.028" H 7750 7150 39  0001 C CNN "UPL #"
+	1    7750 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 7250 7450 7250
+Wire Wire Line
+	7450 7250 7450 7050
+Connection ~ 7450 7050
+Wire Wire Line
+	7450 7050 7500 7050
+Wire Wire Line
+	7900 7250 8200 7250
+Wire Wire Line
+	8200 7250 8200 6950
+Wire Wire Line
+	8200 6950 8100 6950
+Wire Wire Line
+	8400 6950 8200 6950
+Connection ~ 8200 6950
+$Comp
+L OCI_UPL_1_Resistors:10k_t RV?
+U 1 1 61020432
+P 9250 7350
+F 0 "RV?" V 9204 7274 50  0000 R CNN
+F 1 "10k_t" V 9295 7274 50  0000 R CNN
+F 2 "OCI_UPL_FOOTPRINTS:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp" H 9250 7200 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qt5j3q" H 9250 7150 30  0001 C CNN
+F 4 "1-1623849-0 " H 9250 7100 30  0001 C CNN "Part #"
+F 5 "1.070" H 9250 7050 30  0001 C CNN "UPL #"
+	1    9250 7350
+	0    -1   1    0   
+$EndComp
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 6102043A
+P 8700 7350
+F 0 "R?" H 8700 7250 50  0000 C CNN
+F 1 "1K" H 8700 7150 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 8700 7200 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 8700 7500 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 8700 7550 30  0001 C CNN "Part #"
+F 5 "1.028" H 8700 7250 39  0001 C CNN "UPL #"
+	1    8700 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 7350 8300 7350
+Wire Wire Line
+	8300 7350 8300 7150
+Wire Wire Line
+	8300 7150 8400 7150
+Wire Wire Line
+	8850 7350 9100 7350
+Wire Wire Line
+	9250 7200 9250 7050
+Wire Wire Line
+	9250 7050 9000 7050
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 61020448
+P 9600 7050
+F 0 "R?" H 9600 6950 50  0000 C CNN
+F 1 "1K" H 9600 6850 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 9600 6900 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 9600 7200 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 9600 7250 30  0001 C CNN "Part #"
+F 5 "1.028" H 9600 6950 39  0001 C CNN "UPL #"
+	1    9600 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 7050 9250 7050
+Connection ~ 9250 7050
+Wire Wire Line
+	9750 7050 9850 7050
+Connection ~ 9850 7050
+Wire Wire Line
+	9850 7050 10000 7050
+Wire Wire Line
+	9850 7500 9850 7050
+Wire Wire Line
+	10000 7250 9950 7250
+Wire Wire Line
+	9950 7250 9950 7400
+Wire Wire Line
+	9950 7400 10650 7400
+Wire Wire Line
+	10650 7400 10650 7150
+Wire Wire Line
+	10650 7150 10600 7150
+$Comp
+L power:GND #PWR?
+U 1 1 61020459
+P 9850 7850
+F 0 "#PWR?" H 9850 7600 50  0001 C CNN
+F 1 "GND" H 9855 7677 50  0000 C CNN
+F 2 "" H 9850 7850 50  0001 C CNN
+F 3 "" H 9850 7850 50  0001 C CNN
+	1    9850 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 7850 9850 7800
+Wire Wire Line
+	6450 6600 7050 6600
+Wire Wire Line
+	7050 6600 7050 6850
+Wire Wire Line
+	7050 6850 7100 6850
+Connection ~ 10650 7150
+Wire Wire Line
+	10650 7150 11050 7150
+$Comp
+L power:GND #PWR?
+U 1 1 61020465
+P 5300 7300
+F 0 "#PWR?" H 5300 7050 50  0001 C CNN
+F 1 "GND" H 5305 7127 50  0000 C CNN
+F 2 "" H 5300 7300 50  0001 C CNN
+F 3 "" H 5300 7300 50  0001 C CNN
+	1    5300 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 7300 5300 7250
+$Comp
+L power:+5V #PWR?
+U 1 1 6102046C
+P 5300 6550
+F 0 "#PWR?" H 5300 6400 50  0001 C CNN
+F 1 "+5V" H 5315 6723 50  0000 C CNN
+F 2 "" H 5300 6550 50  0001 C CNN
+F 3 "" H 5300 6550 50  0001 C CNN
+	1    5300 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L OCI_UPL_2_Capacitors:1uF_t C?
+U 1 1 61020474
+P 4900 6800
+F 0 "C?" H 5015 6846 50  0000 L CNN
+F 1 "1uF_t" H 5015 6755 50  0000 L CNN
+F 2 "OCI_UPL_FOOTPRINTS:C_1206_HandSoldering" H 4900 6550 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qcd8w2" H 4900 7000 30  0001 C CNN
+F 4 "T491A105K025AT" H 4900 7050 30  0001 C CNN "Part #"
+F 5 "2.019" H 4900 6600 30  0001 C CNN "UPL #"
+	1    4900 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L OCI_UPL_2_Capacitors:1uF_t C?
+U 1 1 6102047C
+P 9850 7650
+F 0 "C?" H 9965 7696 50  0000 L CNN
+F 1 "1uF_t" H 9965 7605 50  0000 L CNN
+F 2 "OCI_UPL_FOOTPRINTS:C_1206_HandSoldering" H 9850 7400 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qcd8w2" H 9850 7850 30  0001 C CNN
+F 4 "T491A105K025AT" H 9850 7900 30  0001 C CNN "Part #"
+F 5 "2.019" H 9850 7450 30  0001 C CNN "UPL #"
+	1    9850 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 6650 4900 6600
+Wire Wire Line
+	4900 6600 5300 6600
+Wire Wire Line
+	5300 6600 5300 6650
+Wire Wire Line
+	5300 6550 5300 6600
+Connection ~ 5300 6600
+$Comp
+L power:GND #PWR?
+U 1 1 61020487
+P 4900 7050
+F 0 "#PWR?" H 4900 6800 50  0001 C CNN
+F 1 "GND" H 4905 6877 50  0000 C CNN
+F 2 "" H 4900 7050 50  0001 C CNN
+F 3 "" H 4900 7050 50  0001 C CNN
+	1    4900 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 6950 4900 7050
+$Comp
+L power:GND #PWR?
+U 1 1 6102048E
+P 9250 7550
+F 0 "#PWR?" H 9250 7300 50  0001 C CNN
+F 1 "GND" H 9255 7377 50  0000 C CNN
+F 2 "" H 9250 7550 50  0001 C CNN
+F 3 "" H 9250 7550 50  0001 C CNN
+	1    9250 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 7500 9250 7550
+Text Label 6450 6600 0    50   ~ 0
+Ch4_in
+Text Label 11050 7150 2    50   ~ 0
+CH4_AI
+$Comp
+L Amplifier_Operational:MCP6004 U?
+U 1 1 61020497
+P 6650 8450
+F 0 "U?" H 6650 8817 50  0000 C CNN
+F 1 "MCP6004" H 6650 8726 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 6600 8550 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6700 8650 50  0001 C CNN
+	1    6650 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6004 U?
+U 2 1 6102049D
+P 7800 8350
+F 0 "U?" H 7800 8717 50  0000 C CNN
+F 1 "MCP6004" H 7800 8626 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 7750 8450 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7850 8550 50  0001 C CNN
+	2    7800 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6004 U?
+U 3 1 610204A3
+P 8700 8450
+F 0 "U?" H 8700 8817 50  0000 C CNN
+F 1 "MCP6004" H 8700 8726 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 8650 8550 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 8750 8650 50  0001 C CNN
+	3    8700 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6004 U?
+U 4 1 610204A9
+P 10300 8550
+F 0 "U?" H 10300 8917 50  0000 C CNN
+F 1 "MCP6004" H 10300 8826 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 10250 8650 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 10350 8750 50  0001 C CNN
+	4    10300 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6004 U?
+U 5 1 610204AF
+P 5400 8350
+F 0 "U?" H 5358 8396 50  0000 L CNN
+F 1 "MCP6004" H 5358 8305 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 5350 8450 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 5450 8550 50  0001 C CNN
+	5    5400 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L OCI_UPL_1_Resistors:10k_t RV?
+U 1 1 610204B7
+P 6050 8350
+F 0 "RV?" V 6004 8273 50  0000 R CNN
+F 1 "10k_t" V 6095 8273 50  0000 R CNN
+F 2 "OCI_UPL_FOOTPRINTS:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp" H 6050 8200 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qt5j3q" H 6050 8150 30  0001 C CNN
+F 4 "1-1623849-0 " H 6050 8100 30  0001 C CNN "Part #"
+F 5 "1.070" H 6050 8050 30  0001 C CNN "UPL #"
+	1    6050 8350
+	0    1    1    0   
+$EndComp
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 610204BF
+P 6500 8900
+F 0 "R?" H 6500 9107 50  0000 C CNN
+F 1 "1K" H 6500 9016 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 6500 8750 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 6500 9050 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 6500 9100 30  0001 C CNN "Part #"
+F 5 "1.028" H 6500 8800 39  0001 C CNN "UPL #"
+	1    6500 8900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 8900 6200 8900
+Wire Wire Line
+	6200 8900 6200 8550
+Wire Wire Line
+	6200 8550 6350 8550
+Wire Wire Line
+	6350 8350 6200 8350
+$Comp
+L power:+5V #PWR?
+U 1 1 610204C9
+P 6050 8100
+F 0 "#PWR?" H 6050 7950 50  0001 C CNN
+F 1 "+5V" H 6065 8273 50  0000 C CNN
+F 2 "" H 6050 8100 50  0001 C CNN
+F 3 "" H 6050 8100 50  0001 C CNN
+	1    6050 8100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 8100 6050 8200
+$Comp
+L power:GND #PWR?
+U 1 1 610204D0
+P 6050 8550
+F 0 "#PWR?" H 6050 8300 50  0001 C CNN
+F 1 "GND" H 6055 8377 50  0000 C CNN
+F 2 "" H 6050 8550 50  0001 C CNN
+F 3 "" H 6050 8550 50  0001 C CNN
+	1    6050 8550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 8550 6050 8500
+Wire Wire Line
+	6650 8900 7050 8900
+Wire Wire Line
+	7050 8900 7050 8450
+Wire Wire Line
+	7050 8450 6950 8450
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 610204DC
+P 7250 8450
+F 0 "R?" H 7250 8350 50  0000 C CNN
+F 1 "1K" H 7250 8250 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 7250 8300 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 7250 8600 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 7250 8650 30  0001 C CNN "Part #"
+F 5 "1.028" H 7250 8350 39  0001 C CNN "UPL #"
+	1    7250 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 610204E4
+P 7250 8250
+F 0 "R?" H 7250 8457 50  0000 C CNN
+F 1 "1K" H 7250 8366 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 7250 8100 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 7250 8400 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 7250 8450 30  0001 C CNN "Part #"
+F 5 "1.028" H 7250 8150 39  0001 C CNN "UPL #"
+	1    7250 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 8450 7050 8450
+Connection ~ 7050 8450
+Wire Wire Line
+	7400 8450 7450 8450
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 610204EF
+P 7450 7900
+F 0 "R?" V 7404 7970 50  0000 L CNN
+F 1 "1K" V 7495 7970 50  0000 L CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 7450 7750 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 7450 8050 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 7450 8100 30  0001 C CNN "Part #"
+F 5 "1.028" H 7450 7800 39  0001 C CNN "UPL #"
+	1    7450 7900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 610204F5
+P 7300 7750
+F 0 "#PWR?" H 7300 7500 50  0001 C CNN
+F 1 "GND" H 7305 7577 50  0000 C CNN
+F 2 "" H 7300 7750 50  0001 C CNN
+F 3 "" H 7300 7750 50  0001 C CNN
+	1    7300 7750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 8250 7450 8250
+Wire Wire Line
+	7450 8050 7450 8250
+Connection ~ 7450 8250
+Wire Wire Line
+	7450 8250 7500 8250
+Wire Wire Line
+	7300 7750 7300 7650
+Wire Wire Line
+	7300 7650 7450 7650
+Wire Wire Line
+	7450 7650 7450 7750
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 61020504
+P 7750 8650
+F 0 "R?" H 7750 8550 50  0000 C CNN
+F 1 "1K" H 7750 8450 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 7750 8500 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 7750 8800 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 7750 8850 30  0001 C CNN "Part #"
+F 5 "1.028" H 7750 8550 39  0001 C CNN "UPL #"
+	1    7750 8650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 8650 7450 8650
+Wire Wire Line
+	7450 8650 7450 8450
+Connection ~ 7450 8450
+Wire Wire Line
+	7450 8450 7500 8450
+Wire Wire Line
+	7900 8650 8200 8650
+Wire Wire Line
+	8200 8650 8200 8350
+Wire Wire Line
+	8200 8350 8100 8350
+Wire Wire Line
+	8400 8350 8200 8350
+Connection ~ 8200 8350
+$Comp
+L OCI_UPL_1_Resistors:10k_t RV?
+U 1 1 61020515
+P 9250 8750
+F 0 "RV?" V 9204 8674 50  0000 R CNN
+F 1 "10k_t" V 9295 8674 50  0000 R CNN
+F 2 "OCI_UPL_FOOTPRINTS:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp" H 9250 8600 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qt5j3q" H 9250 8550 30  0001 C CNN
+F 4 "1-1623849-0 " H 9250 8500 30  0001 C CNN "Part #"
+F 5 "1.070" H 9250 8450 30  0001 C CNN "UPL #"
+	1    9250 8750
+	0    -1   1    0   
+$EndComp
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 6102051D
+P 8700 8750
+F 0 "R?" H 8700 8650 50  0000 C CNN
+F 1 "1K" H 8700 8550 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 8700 8600 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 8700 8900 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 8700 8950 30  0001 C CNN "Part #"
+F 5 "1.028" H 8700 8650 39  0001 C CNN "UPL #"
+	1    8700 8750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 8750 8300 8750
+Wire Wire Line
+	8300 8750 8300 8550
+Wire Wire Line
+	8300 8550 8400 8550
+Wire Wire Line
+	8850 8750 9100 8750
+Wire Wire Line
+	9250 8600 9250 8450
+Wire Wire Line
+	9250 8450 9000 8450
+$Comp
+L OCI_UPL_1_Resistors:1K R?
+U 1 1 6102052B
+P 9600 8450
+F 0 "R?" H 9600 8350 50  0000 C CNN
+F 1 "1K" H 9600 8250 50  0000 C CNN
+F 2 "OCI_UPL_FOOTPRINTS:R_1206_HandSoldering" H 9600 8300 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qczz1d" H 9600 8600 39  0001 C CNN
+F 4 "RC1206FR-071KL" H 9600 8650 30  0001 C CNN "Part #"
+F 5 "1.028" H 9600 8350 39  0001 C CNN "UPL #"
+	1    9600 8450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 8450 9250 8450
+Connection ~ 9250 8450
+Wire Wire Line
+	9750 8450 9850 8450
+Connection ~ 9850 8450
+Wire Wire Line
+	9850 8450 10000 8450
+Wire Wire Line
+	9850 8900 9850 8450
+Wire Wire Line
+	10000 8650 9950 8650
+Wire Wire Line
+	9950 8650 9950 8800
+Wire Wire Line
+	9950 8800 10650 8800
+Wire Wire Line
+	10650 8800 10650 8550
+Wire Wire Line
+	10650 8550 10600 8550
+$Comp
+L power:GND #PWR?
+U 1 1 6102053C
+P 9850 9250
+F 0 "#PWR?" H 9850 9000 50  0001 C CNN
+F 1 "GND" H 9855 9077 50  0000 C CNN
+F 2 "" H 9850 9250 50  0001 C CNN
+F 3 "" H 9850 9250 50  0001 C CNN
+	1    9850 9250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 9250 9850 9200
+Wire Wire Line
+	6450 8000 7050 8000
+Wire Wire Line
+	7050 8000 7050 8250
+Wire Wire Line
+	7050 8250 7100 8250
+Connection ~ 10650 8550
+Wire Wire Line
+	10650 8550 11050 8550
+$Comp
+L power:GND #PWR?
+U 1 1 61020548
+P 5300 8700
+F 0 "#PWR?" H 5300 8450 50  0001 C CNN
+F 1 "GND" H 5305 8527 50  0000 C CNN
+F 2 "" H 5300 8700 50  0001 C CNN
+F 3 "" H 5300 8700 50  0001 C CNN
+	1    5300 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 8700 5300 8650
+$Comp
+L power:+5V #PWR?
+U 1 1 6102054F
+P 5300 7950
+F 0 "#PWR?" H 5300 7800 50  0001 C CNN
+F 1 "+5V" H 5315 8123 50  0000 C CNN
+F 2 "" H 5300 7950 50  0001 C CNN
+F 3 "" H 5300 7950 50  0001 C CNN
+	1    5300 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L OCI_UPL_2_Capacitors:1uF_t C?
+U 1 1 61020557
+P 4900 8200
+F 0 "C?" H 5015 8246 50  0000 L CNN
+F 1 "1uF_t" H 5015 8155 50  0000 L CNN
+F 2 "OCI_UPL_FOOTPRINTS:C_1206_HandSoldering" H 4900 7950 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qcd8w2" H 4900 8400 30  0001 C CNN
+F 4 "T491A105K025AT" H 4900 8450 30  0001 C CNN "Part #"
+F 5 "2.019" H 4900 8000 30  0001 C CNN "UPL #"
+	1    4900 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L OCI_UPL_2_Capacitors:1uF_t C?
+U 1 1 6102055F
+P 9850 9050
+F 0 "C?" H 9965 9096 50  0000 L CNN
+F 1 "1uF_t" H 9965 9005 50  0000 L CNN
+F 2 "OCI_UPL_FOOTPRINTS:C_1206_HandSoldering" H 9850 8800 30  0001 C CNN
+F 3 "https://www.digikey.com/short/qcd8w2" H 9850 9250 30  0001 C CNN
+F 4 "T491A105K025AT" H 9850 9300 30  0001 C CNN "Part #"
+F 5 "2.019" H 9850 8850 30  0001 C CNN "UPL #"
+	1    9850 9050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 8050 4900 8000
+Wire Wire Line
+	4900 8000 5300 8000
+Wire Wire Line
+	5300 8000 5300 8050
+Wire Wire Line
+	5300 7950 5300 8000
+Connection ~ 5300 8000
+$Comp
+L power:GND #PWR?
+U 1 1 6102056A
+P 4900 8450
+F 0 "#PWR?" H 4900 8200 50  0001 C CNN
+F 1 "GND" H 4905 8277 50  0000 C CNN
+F 2 "" H 4900 8450 50  0001 C CNN
+F 3 "" H 4900 8450 50  0001 C CNN
+	1    4900 8450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 8350 4900 8450
+$Comp
+L power:GND #PWR?
+U 1 1 61020571
+P 9250 8950
+F 0 "#PWR?" H 9250 8700 50  0001 C CNN
+F 1 "GND" H 9255 8777 50  0000 C CNN
+F 2 "" H 9250 8950 50  0001 C CNN
+F 3 "" H 9250 8950 50  0001 C CNN
+	1    9250 8950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 8900 9250 8950
+Text Label 6450 8000 0    50   ~ 0
+Ch5_in
+Text Label 11050 8550 2    50   ~ 0
+CH5_AI
+Wire Wire Line
+	2250 3500 2600 3500
+Wire Wire Line
+	2250 3600 2600 3600
+Wire Wire Line
+	2250 3700 2600 3700
+Wire Wire Line
+	2250 4100 2600 4100
+Wire Wire Line
+	2250 4200 2600 4200
+NoConn ~ 1250 3400
+NoConn ~ 1250 3500
+NoConn ~ 1250 3600
+NoConn ~ 1250 3700
+NoConn ~ 1250 3800
+NoConn ~ 1250 3900
+NoConn ~ 1250 4000
+NoConn ~ 1250 4100
+NoConn ~ 1250 4200
+Text Label 2600 3500 2    50   ~ 0
+CH0_AI
+Text Label 2600 3600 2    50   ~ 0
+CH1_AI
+Text Label 2600 3700 2    50   ~ 0
+CH2_AI
+Text Label 2600 3800 2    50   ~ 0
+CH3_AI
+Text Label 2600 4100 2    50   ~ 0
+CH4_AI
+Text Label 2600 4200 2    50   ~ 0
+CH5_AI
+Wire Wire Line
+	2250 3800 2600 3800
+$Comp
+L OCI_UPL_10_Connectors:Term_2 J?
+U 1 1 613242EA
+P 13950 1600
+F 0 "J?" H 14038 1728 60  0000 L CNN
+F 1 "Term_2" H 14038 1622 60  0000 L CNN
+F 2 "OCI_UPL_FOOTPRINTS:TerminalBlock_Pheonix_MKDS1.5-2pol" H 14800 1800 30  0001 C CNN
+F 3 "https://www.digikey.com/short/q7wbhd" H 14800 1650 30  0001 C CNN
+F 4 "1935161" H 14800 1700 30  0001 C CNN "Part #"
+F 5 "10.003" H 14850 1750 30  0001 C CNN "UPL #"
+	1    13950 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L OCI_UPL_10_Connectors:Term_2 J?
+U 1 1 61324F57
+P 13950 1950
+F 0 "J?" H 14038 2078 60  0000 L CNN
+F 1 "Term_2" H 14038 1972 60  0000 L CNN
+F 2 "OCI_UPL_FOOTPRINTS:TerminalBlock_Pheonix_MKDS1.5-2pol" H 14800 2150 30  0001 C CNN
+F 3 "https://www.digikey.com/short/q7wbhd" H 14800 2000 30  0001 C CNN
+F 4 "1935161" H 14800 2050 30  0001 C CNN "Part #"
+F 5 "10.003" H 14850 2100 30  0001 C CNN "UPL #"
+	1    13950 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L OCI_UPL_10_Connectors:Term_2 J?
+U 1 1 61325418
+P 13950 2300
+F 0 "J?" H 14038 2428 60  0000 L CNN
+F 1 "Term_2" H 14038 2322 60  0000 L CNN
+F 2 "OCI_UPL_FOOTPRINTS:TerminalBlock_Pheonix_MKDS1.5-2pol" H 14800 2500 30  0001 C CNN
+F 3 "https://www.digikey.com/short/q7wbhd" H 14800 2350 30  0001 C CNN
+F 4 "1935161" H 14800 2400 30  0001 C CNN "Part #"
+F 5 "10.003" H 14850 2450 30  0001 C CNN "UPL #"
+	1    13950 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L OCI_UPL_10_Connectors:Term_2 J?
+U 1 1 613259CE
+P 13950 2650
+F 0 "J?" H 14038 2778 60  0000 L CNN
+F 1 "Term_2" H 14038 2672 60  0000 L CNN
+F 2 "OCI_UPL_FOOTPRINTS:TerminalBlock_Pheonix_MKDS1.5-2pol" H 14800 2850 30  0001 C CNN
+F 3 "https://www.digikey.com/short/q7wbhd" H 14800 2700 30  0001 C CNN
+F 4 "1935161" H 14800 2750 30  0001 C CNN "Part #"
+F 5 "10.003" H 14850 2800 30  0001 C CNN "UPL #"
+	1    13950 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61330F94
+P 13650 1350
+F 0 "#PWR?" H 13650 1200 50  0001 C CNN
+F 1 "+5V" H 13665 1523 50  0000 C CNN
+F 2 "" H 13650 1350 50  0001 C CNN
+F 3 "" H 13650 1350 50  0001 C CNN
+	1    13650 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13650 2500 13700 2500
+$Comp
+L power:GND #PWR?
+U 1 1 6135C72B
+P 13650 2700
+F 0 "#PWR?" H 13650 2450 50  0001 C CNN
+F 1 "GND" H 13655 2527 50  0000 C CNN
+F 2 "" H 13650 2700 50  0001 C CNN
+F 3 "" H 13650 2700 50  0001 C CNN
+	1    13650 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13700 2650 13650 2650
+Wire Wire Line
+	13650 2650 13650 2700
+Text Label 13300 1450 0    50   ~ 0
+Ch0_in
+Wire Wire Line
+	13650 1350 13650 1450
+Text Label 13300 1600 0    50   ~ 0
+Ch1_in
+Text Label 13300 1800 0    50   ~ 0
+Ch2_in
+Text Label 13300 1950 0    50   ~ 0
+Ch3_in
+Text Label 13300 2150 0    50   ~ 0
+Ch4_in
+Text Label 13300 2300 0    50   ~ 0
+Ch5_in
+Wire Wire Line
+	13650 1450 13300 1450
+Connection ~ 13650 1450
+Wire Wire Line
+	13650 1450 13650 2500
+Wire Wire Line
+	13300 1600 13700 1600
+Wire Wire Line
+	13700 1800 13300 1800
+Wire Wire Line
+	13300 1950 13700 1950
+Wire Wire Line
+	13700 2150 13300 2150
+Wire Wire Line
+	13300 2300 13700 2300
+$EndSCHEMATC

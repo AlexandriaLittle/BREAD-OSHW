@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Owner\Documents\MTU\OSHE\BREAD_FieldSolarPower\Electrical Design\BREAD_Slice.kicad_sch</source>
+    <date>11/2/2022 6:03:21 PM</date>
+    <tool>Eeschema (6.0.2)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>BREAD_Slice.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="0.5A1">
+      <value>SOLDERJUMPER</value>
+      <footprint>Adafruit_BQ24074:SOLDERJUMPER_ARROW_NOPASTE</footprint>
+      <libsource lib="Adafruit_BQ24074-eagle-import" part="SOLDERJUMPER" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>221d5d88-9b3c-4368-a294-8824ee031e92</tstamps>
+    </comp>
+    <comp ref="1.5A1">
+      <value>SOLDERJUMPER</value>
+      <footprint>Adafruit_BQ24074:SOLDERJUMPER_ARROW_NOPASTE</footprint>
+      <libsource lib="Adafruit_BQ24074-eagle-import" part="SOLDERJUMPER" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>484af56d-52a8-4619-9da5-01f6469e30c6</tstamps>
+    </comp>
+    <comp ref="1A1">
+      <value>SOLDERJUMPERCLOSED</value>
+      <footprint>Adafruit_BQ24074:SOLDERJUMPER_CLOSEDWIRE</footprint>
+      <libsource lib="Adafruit_BQ24074-eagle-import" part="SOLDERJUMPERCLOSED" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c9d4f00-4cd0-4ee4-9cc5-87c9ef812b4d</tstamps>
+    </comp>
+    <comp ref="A1">
+      <value>Arduino_Nano_v3.x</value>
+      <footprint>Module:Arduino_Nano</footprint>
+      <datasheet>http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf</datasheet>
+      <libsource lib="MCU_Module" part="Arduino_Nano_v3.x" description="Arduino Nano v3.x"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fcad89b</tstamps>
+    </comp>
+    <comp ref="BATT1">
+      <value>JST 2PH</value>
+      <footprint>Adafruit_BQ24074:JST-PH-2-SMT-RA</footprint>
+      <libsource lib="Adafruit_BQ24074-eagle-import" part="JST_2PIN-SMT-RA" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fce45801-714b-45f8-9337-028ea102541d</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Adafruit_BQ24074:0805-NO</footprint>
+      <libsource lib="Adafruit_BQ24074-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe29088c-03e0-4173-839c-2ceb4b28c722</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Adafruit_BQ24074:0805-NO</footprint>
+      <libsource lib="Adafruit_BQ24074-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c30ed49-c155-41f8-b6b9-72c521ac8e21</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>22uF</value>
+      <footprint>Adafruit_BQ24074:0805-NO</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77d61d9c-dd93-44a2-aecd-344877840219</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>C</value>
+      <footprint>Adafruit_BQ24074:0805-NO</footprint>
+      <libsource lib="Adafruit_BQ24074-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6fb489e-350e-4ccd-8a38-f6fd5f40c38d</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>C</value>
+      <footprint>Adafruit_BQ24074:0805-NO</footprint>
+      <libsource lib="Adafruit_BQ24074-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58631dc0-d301-47d7-b991-d42ddc1ccaa6</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>22uF</value>
+      <footprint>Adafruit_BQ24074:0805-NO</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>535053c1-f665-44eb-b4ad-b6c6983cb93f</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>10uF</value>
+      <footprint>Adafruit_BQ24074:0805-NO</footprint>
+      <libsource lib="Adafruit_BQ24074-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f4ef117-6538-49fe-a5b5-f3ebfd4f358a</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <footprint>Adafruit_BQ24074:0805-NO</footprint>
+      <libsource lib="Adafruit_BQ24074-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6412550-43c8-4f65-9cde-891803e0dfc5</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>SK34A</value>
+      <footprint>Adafruit_BQ24074:SMADIODE</footprint>
+      <libsource lib="Adafruit_BQ24074-eagle-import" part="DIODE-SCHOTTKYSMA" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>129f97c7-2374-49a9-b169-d903c620065a</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>SK34A</value>
+      <footprint>Adafruit_BQ24074:SMADIODE</footprint>
+      <libsource lib="Adafruit_BQ24074-eagle-import" part="DIODE-SCHOTTKYSMA" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>451e100f-8f28-4427-8714-a90247d0bd1c</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_SMA_Handsoldering</footprint>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47c484f9-3fe7-4901-ab82-13ea0715fc01</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>RED</value>
+      <footprint>Adafruit_BQ24074:CHIPLED_0603</footprint>
+      <libsource lib="Adafruit_BQ24074-eagle-import" part="LED0603" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d53a24d1-035d-4cf5-a2a7-c4291b56cc3c</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>GREEN</value>
+      <footprint>Adafruit_BQ24074:CHIPLED_0603</footprint>
+      <libsource lib="Adafruit_BQ24074-eagle-import" part="LED0603" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0f1f50f-5a11-4673-91f3-02ed7b5ae9f1</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fab1765</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fab217d</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fab1b3e</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fab25f7</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x10_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x10_Female" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fe6b3c7</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>USB_B_Micro</value>
+      <footprint>Connector_USB:USB_Micro-B_GCT_USB3076-30-A</footprint>
+      <fields>
+        <field name="Part#">USB3076-30-A</field>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="Part#" value="USB3076-30-A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41e9934a-3a26-447c-a0fd-6e248b21d791</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>BREAD_Slice:TerminalBlock_Pheonix_MKDS1.5-2pol</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc585942-4774-43f2-bbd4-3dd80c9ca98b</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>BREAD_Slice:TerminalBlock_Pheonix_MKDS1.5-2pol</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d40dc37a-b042-4f00-a688-c1518082958a</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>22uH</value>
+      <footprint>Inductor_SMD:L_Taiyo-Yuden_NR-50xx_HandSoldering</footprint>
+      <datasheet>https://www.yuden.co.jp/productdata/catalog/wound04_e.pdf</datasheet>
+      <fields>
+        <field name="Part#">NRS5020T220MMGJ</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Part#" value="NRS5020T220MMGJ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>760a680c-1dd9-4c09-8e09-e99bd1083c51</tstamps>
+    </comp>
+    <comp ref="Logo1">
+      <value>Logo_Open_Hardware_Small</value>
+      <footprint>Symbol:OSHW-Symbol_6.7x6mm_SilkScreen</footprint>
+      <libsource lib="Graphic" part="Logo_Open_Hardware_Small" description="Open Hardware logo, small"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fe4a934</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>590</value>
+      <footprint>Adafruit_BQ24074:0603-NO</footprint>
+      <libsource lib="Adafruit_BQ24074-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14c0c4df-db41-4e93-b67d-f5abc3579115</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1K</value>
+      <footprint>Adafruit_BQ24074:0603-NO</footprint>
+      <libsource lib="Adafruit_BQ24074-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95abc464-3df4-4e58-bd77-eba90b750956</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>2K</value>
+      <footprint>Adafruit_BQ24074:0603-NO</footprint>
+      <libsource lib="Adafruit_BQ24074-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>978a88e3-d750-4610-bbf0-2a21503c1c73</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1K</value>
+      <footprint>Adafruit_BQ24074:0603-NO</footprint>
+      <libsource lib="Adafruit_BQ24074-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d7b888b-efca-4575-b5da-d7e11fa1f75e</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Adafruit_BQ24074:0603-NO</footprint>
+      <libsource lib="Adafruit_BQ24074-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2cb64b67-97af-427d-b2f1-c396435abbd7</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>Adafruit_BQ24074:0603-NO</footprint>
+      <libsource lib="Adafruit_BQ24074-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>704a468c-1582-404e-b0a5-342843d86799</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>39k</value>
+      <footprint>Adafruit_BQ24074:0603-NO</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25ddec48-21c9-4b5d-b76e-b52c28d4ff9f</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>2.2k</value>
+      <footprint>Adafruit_BQ24074:0603-NO</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>29d81b6e-054f-41b5-89ea-d852ca15aace</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10K</value>
+      <footprint>Adafruit_BQ24074:0603-NO</footprint>
+      <libsource lib="Adafruit_BQ24074-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>348b6efb-9bcc-4264-b70c-283b6f9b83a8</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10K</value>
+      <footprint>Adafruit_BQ24074:0603-NO</footprint>
+      <libsource lib="Adafruit_BQ24074-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab8d73cb-5c71-46de-9b59-778015fa25a7</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10K</value>
+      <footprint>Adafruit_BQ24074:0603-NO</footprint>
+      <libsource lib="Adafruit_BQ24074-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66a076cd-dae1-4ed4-912c-bfa45b8bf6d3</tstamps>
+    </comp>
+    <comp ref="SJ1">
+      <value>SOLDERJUMPER_2WAY</value>
+      <footprint>Adafruit_BQ24074:SOLDERJUMPER_2WAY_OPEN_NOPASTE</footprint>
+      <libsource lib="Adafruit_BQ24074-eagle-import" part="SOLDERJUMPER_2WAY" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5beff8a3-8630-4bb0-bd39-70da8abbf114</tstamps>
+    </comp>
+    <comp ref="SJ2">
+      <value>SOLDERJUMPER_2WAY</value>
+      <footprint>Adafruit_BQ24074:SOLDERJUMPER_2WAY_OPEN_NOPASTE</footprint>
+      <libsource lib="Adafruit_BQ24074-eagle-import" part="SOLDERJUMPER_2WAY" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6051bc58-8dbb-4b22-97e8-7eb00f734903</tstamps>
+    </comp>
+    <comp ref="THERM1">
+      <value>SOLDERJUMPERCLOSED</value>
+      <footprint>Adafruit_BQ24074:SOLDERJUMPER_CLOSEDWIRE</footprint>
+      <libsource lib="Adafruit_BQ24074-eagle-import" part="SOLDERJUMPERCLOSED" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5623130f-7872-4bd0-b184-af6820834252</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>MT3608</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="MT3608" description="High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d2925ea-d487-473e-a827-11f40d199fed</tstamps>
+    </comp>
+    <comp ref="X1">
+      <value>2.1mm DC</value>
+      <footprint>Adafruit_BQ24074:DCJACK_2MM_SMT</footprint>
+      <libsource lib="Adafruit_BQ24074-eagle-import" part="DCBARRELSMT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7f6b5dc9-23db-4ec0-a248-d486810fc068</tstamps>
+    </comp>
+    <comp ref="X2">
+      <value>BQ24074</value>
+      <footprint>Adafruit_BQ24074:QFN16_3MM</footprint>
+      <libsource lib="Adafruit_BQ24074-eagle-import" part="BQ24074" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BREAD_Slice.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06643fef-5d4d-471a-89ce-b46fe6826133</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Adafruit_BQ24074-eagle-import" part="BQ24074">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">BQ24074</field>
+        <field name="Footprint">Adafruit_BQ24074:QFN16_3MM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TS" type="input"/>
+        <pin num="2" name="BAT" type="input"/>
+        <pin num="3" name="BAT" type="input"/>
+        <pin num="4" name="~{CE}" type="input"/>
+        <pin num="5" name="EN2" type="input"/>
+        <pin num="6" name="EN1" type="input"/>
+        <pin num="7" name="~{PGOOD}" type="output"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="~{CHG}" type="output"/>
+        <pin num="10" name="OUT" type="output"/>
+        <pin num="11" name="OUT" type="output"/>
+        <pin num="12" name="ILIM" type="input"/>
+        <pin num="13" name="IN" type="power_in"/>
+        <pin num="14" name="TMR" type="input"/>
+        <pin num="15" name="ITERM" type="input"/>
+        <pin num="16" name="ISET" type="input"/>
+        <pin num="THERMAL" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit_BQ24074-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP_CERAMIC0805-NOOUTLINE</field>
+        <field name="Footprint">Adafruit_BQ24074:0805-NO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit_BQ24074-eagle-import" part="DCBARRELSMT">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">DCBARRELSMT</field>
+        <field name="Footprint">Adafruit_BQ24074:DCJACK_2MM_SMT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PWR" type="power_in"/>
+        <pin num="1'" name="PWR" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="GNDBREAK" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit_BQ24074-eagle-import" part="DIODE-SCHOTTKYSMA">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE-SCHOTTKYSMA</field>
+        <field name="Footprint">Adafruit_BQ24074:SMADIODE</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit_BQ24074-eagle-import" part="JST_2PIN-SMT-RA">
+      <fields>
+        <field name="Reference">CN</field>
+        <field name="Value">JST_2PIN-SMT-RA</field>
+        <field name="Footprint">Adafruit_BQ24074:JST-PH-2-SMT-RA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="2" type="passive"/>
+        <pin num="2" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit_BQ24074-eagle-import" part="LED0603">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED0603</field>
+        <field name="Footprint">Adafruit_BQ24074:CHIPLED_0603</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit_BQ24074-eagle-import" part="RESISTOR_0603_NOOUT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RESISTOR_0603_NOOUT</field>
+        <field name="Footprint">Adafruit_BQ24074:0603-NO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit_BQ24074-eagle-import" part="SOLDERJUMPER">
+      <fields>
+        <field name="Reference">SJ</field>
+        <field name="Value">SOLDERJUMPER</field>
+        <field name="Footprint">Adafruit_BQ24074:SOLDERJUMPER_ARROW_NOPASTE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit_BQ24074-eagle-import" part="SOLDERJUMPERCLOSED">
+      <fields>
+        <field name="Reference">SJ</field>
+        <field name="Value">SOLDERJUMPERCLOSED</field>
+        <field name="Footprint">Adafruit_BQ24074:SOLDERJUMPER_CLOSEDWIRE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit_BQ24074-eagle-import" part="SOLDERJUMPER_2WAY">
+      <fields>
+        <field name="Reference">SJ</field>
+        <field name="Value">SOLDERJUMPER_2WAY</field>
+        <field name="Footprint">Adafruit_BQ24074:SOLDERJUMPER_2WAY_OPEN_NOPASTE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x10_Female">
+      <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Graphic" part="Logo_Open_Hardware_Small">
+      <description>Open Hardware logo, small</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">#LOGO</field>
+        <field name="Value">Logo_Open_Hardware_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="MCU_Module" part="Arduino_Nano_v3.x">
+      <description>Arduino Nano v3.x</description>
+      <docs>http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf</docs>
+      <footprints>
+        <fp>Arduino*Nano*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Arduino_Nano_v3.x</field>
+        <field name="Footprint">Module:Arduino_Nano</field>
+        <field name="Datasheet">http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D1/TX" type="bidirectional"/>
+        <pin num="2" name="D0/RX" type="bidirectional"/>
+        <pin num="3" name="~{RESET}" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="D2" type="bidirectional"/>
+        <pin num="6" name="D3" type="bidirectional"/>
+        <pin num="7" name="D4" type="bidirectional"/>
+        <pin num="8" name="D5" type="bidirectional"/>
+        <pin num="9" name="D6" type="bidirectional"/>
+        <pin num="10" name="D7" type="bidirectional"/>
+        <pin num="11" name="D8" type="bidirectional"/>
+        <pin num="12" name="D9" type="bidirectional"/>
+        <pin num="13" name="D10" type="bidirectional"/>
+        <pin num="14" name="D11" type="bidirectional"/>
+        <pin num="15" name="D12" type="bidirectional"/>
+        <pin num="16" name="D13" type="bidirectional"/>
+        <pin num="17" name="3V3" type="power_out"/>
+        <pin num="18" name="AREF" type="input"/>
+        <pin num="19" name="A0" type="bidirectional"/>
+        <pin num="20" name="A1" type="bidirectional"/>
+        <pin num="21" name="A2" type="bidirectional"/>
+        <pin num="22" name="A3" type="bidirectional"/>
+        <pin num="23" name="A4" type="bidirectional"/>
+        <pin num="24" name="A5" type="bidirectional"/>
+        <pin num="25" name="A6" type="bidirectional"/>
+        <pin num="26" name="A7" type="bidirectional"/>
+        <pin num="27" name="+5V" type="power_out"/>
+        <pin num="28" name="~{RESET}" type="input"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="MT3608">
+      <description>High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6</description>
+      <docs>https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf</docs>
+      <footprints>
+        <fp>SOT*23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MT3608</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SW" type="passive"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="FB" type="input"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="IN" type="power_in"/>
+        <pin num="6" name="NC" type="no_connect"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Adafruit_BQ24074-eagle-import">
+      <uri>C:\Users\Owner\Documents\MTU\OSHE\BREAD_FieldSolarPower\Electrical Design/Adafruit_BQ24074.pretty/Adafruit_BQ24074-eagle-import.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Graphic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Graphic.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/MCU_Module.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Switching.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="A1" pin="27" pinfunction="+5V" pintype="power_out"/>
+    </net>
+    <net code="2" name="/CHGI">
+      <node ref="A1" pin="10" pinfunction="D7" pintype="bidirectional"/>
+      <node ref="D4" pin="A" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="3" name="/EN1">
+      <node ref="SJ1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="X2" pin="6" pinfunction="EN1" pintype="input"/>
+    </net>
+    <net code="4" name="/EN2">
+      <node ref="SJ2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="X2" pin="5" pinfunction="EN2" pintype="input"/>
+    </net>
+    <net code="5" name="/E_STOP">
+      <node ref="A1" pin="5" pinfunction="D2" pintype="bidirectional"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="6" name="/I2C_CLK">
+      <node ref="A1" pin="24" pinfunction="A5" pintype="bidirectional"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="7" name="/I2C_DAT">
+      <node ref="A1" pin="23" pinfunction="A4" pintype="bidirectional"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="8" name="/ILIM">
+      <node ref="R4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="X2" pin="12" pinfunction="ILIM" pintype="input"/>
+    </net>
+    <net code="9" name="/INT">
+      <node ref="A1" pin="6" pinfunction="D3" pintype="bidirectional"/>
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="10" name="/ISET">
+      <node ref="A1" pin="19" pinfunction="A0" pintype="bidirectional"/>
+      <node ref="R1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="X2" pin="16" pinfunction="ISET" pintype="input"/>
+    </net>
+    <net code="11" name="/ITERM">
+      <node ref="R5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="X2" pin="15" pinfunction="ITERM" pintype="input"/>
+    </net>
+    <net code="12" name="/OUT">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SJ1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SJ2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="EN" pintype="input"/>
+      <node ref="U1" pin="5" pinfunction="IN" pintype="power_in"/>
+      <node ref="X2" pin="10" pinfunction="OUT" pintype="output"/>
+      <node ref="X2" pin="11" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="13" name="/PGOODI">
+      <node ref="A1" pin="11" pinfunction="D8" pintype="bidirectional"/>
+      <node ref="D5" pin="A" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="14" name="/PWR">
+      <node ref="A1" pin="30" pinfunction="VIN" pintype="power_in"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="/SYNC">
+      <node ref="A1" pin="7" pinfunction="D4" pintype="bidirectional"/>
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="16" name="/THERM">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="THERM1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="X2" pin="1" pinfunction="TS" pintype="input"/>
+    </net>
+    <net code="17" name="/~{CHG}">
+      <node ref="A1" pin="8" pinfunction="D5" pintype="bidirectional"/>
+      <node ref="X2" pin="9" pinfunction="~{CHG}" pintype="output"/>
+    </net>
+    <net code="18" name="/~{PGOOD}">
+      <node ref="A1" pin="9" pinfunction="D6" pintype="bidirectional"/>
+      <node ref="X2" pin="7" pinfunction="~{PGOOD}" pintype="output"/>
+    </net>
+    <net code="19" name="GND">
+      <node ref="0.5A1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="1.5A1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="1A1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="A1" pin="29" pinfunction="GND" pintype="power_in"/>
+      <node ref="A1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="BATT1" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="C1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SJ1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="SJ2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="X1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="X1" pin="3" pinfunction="GNDBREAK" pintype="power_in"/>
+      <node ref="X2" pin="14" pinfunction="TMR" pintype="input"/>
+      <node ref="X2" pin="8" pinfunction="VSS" pintype="power_in"/>
+      <node ref="X2" pin="THERMAL" pinfunction="VSS" pintype="power_in"/>
+    </net>
+    <net code="20" name="Net-(0.5A1-Pad2)">
+      <node ref="0.5A1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(1.5A1-Pad2)">
+      <node ref="1.5A1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(1A1-Pad2)">
+      <node ref="1A1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(D1-PadA)">
+      <node ref="D1" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="VBUS" pintype="power_out"/>
+    </net>
+    <net code="24" name="Net-(D2-PadA)">
+      <node ref="D2" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="X1" pin="1" pinfunction="PWR" pintype="power_in"/>
+      <node ref="X1" pin="1'" pinfunction="PWR" pintype="power_in"/>
+    </net>
+    <net code="25" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="SW" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(D4-PadC)">
+      <node ref="D4" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="R10" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(D5-PadC)">
+      <node ref="D5" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="R11" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="X2" pin="4" pinfunction="~{CE}" pintype="input"/>
+    </net>
+    <net code="29" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="30" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="THERM1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="31" name="VBUS">
+      <node ref="C1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="D1" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="D2" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="X2" pin="13" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="32" name="VLIPO">
+      <node ref="BATT1" pin="1" pinfunction="2" pintype="passive"/>
+      <node ref="C7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="X2" pin="2" pinfunction="BAT" pintype="input"/>
+      <node ref="X2" pin="3" pinfunction="BAT" pintype="input"/>
+    </net>
+    <net code="33" name="unconnected-(A1-Pad1)">
+      <node ref="A1" pin="1" pinfunction="D1/TX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(A1-Pad2)">
+      <node ref="A1" pin="2" pinfunction="D0/RX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(A1-Pad3)">
+      <node ref="A1" pin="3" pinfunction="~{RESET}" pintype="input+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(A1-Pad12)">
+      <node ref="A1" pin="12" pinfunction="D9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(A1-Pad13)">
+      <node ref="A1" pin="13" pinfunction="D10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(A1-Pad14)">
+      <node ref="A1" pin="14" pinfunction="D11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(A1-Pad15)">
+      <node ref="A1" pin="15" pinfunction="D12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(A1-Pad16)">
+      <node ref="A1" pin="16" pinfunction="D13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(A1-Pad17)">
+      <node ref="A1" pin="17" pinfunction="3V3" pintype="power_out+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(A1-Pad18)">
+      <node ref="A1" pin="18" pinfunction="AREF" pintype="input+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(A1-Pad20)">
+      <node ref="A1" pin="20" pinfunction="A1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(A1-Pad21)">
+      <node ref="A1" pin="21" pinfunction="A2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(A1-Pad22)">
+      <node ref="A1" pin="22" pinfunction="A3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(A1-Pad25)">
+      <node ref="A1" pin="25" pinfunction="A6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(A1-Pad26)">
+      <node ref="A1" pin="26" pinfunction="A7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(A1-Pad28)">
+      <node ref="A1" pin="28" pinfunction="~{RESET}" pintype="input+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(J2-Pad2)">
+      <node ref="J2" pin="2" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="unconnected-(J2-Pad3)">
+      <node ref="J2" pin="3" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="unconnected-(J2-Pad4)">
+      <node ref="J2" pin="4" pinfunction="ID" pintype="passive"/>
+    </net>
+    <net code="52" name="unconnected-(J2-Pad6)">
+      <node ref="J2" pin="6" pinfunction="Shield" pintype="passive"/>
+    </net>
+    <net code="53" name="unconnected-(U1-Pad6)">
+      <node ref="U1" pin="6" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

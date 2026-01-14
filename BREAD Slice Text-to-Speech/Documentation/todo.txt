@@ -1,0 +1,6 @@
+- full loaf compatibility
+- more consistent auto boot
+- commands
+  - speed adjustment?
+  - change the voice?
+- option to log all outputs into a txt file

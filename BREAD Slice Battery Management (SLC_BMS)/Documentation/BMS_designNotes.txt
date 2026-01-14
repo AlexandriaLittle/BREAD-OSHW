@@ -1,0 +1,33 @@
+This slice is made up of two main sections:
+
+Solar Charger: "Adafruit Universal USB / DC / Solar Lithium Ion/Polymer charger" based on bq24074
+Boost Converter: Based on MT3608
+
+
+Solar Charger Changes from Adafruit Design:
+	removed output connector and assosiated capacitors
+	output goes to input of boost converter
+	two capacitors on OUT pin are unpopulated, and are there incase more capacitance is necessary.
+	two single-pin headers are for extra capacitor? Part of adafruit design. Removed.
+	replaced USB C connector with micro USB connector USB3076-30-A from GCT, footprint in KiCad libraries	
+	Status indicating LEDs are driven by arduino, arduino reads status from bq24074 and updates LEDs
+	
+Boost Converter Notes:
+	steps ~4.4V output of solar charger up to 12V and outputs to loaf
+	components salvaged from MT3608 converter from amazon, no cheap/suitable options found on DigiKey
+	If MT3608 can't be found, any 4V-12V DC-DC converter should work as replacement
+	MT3608 footprint in KiCad libraries
+	Net "OUT" on boost converter is the input. It's the output of the solar charging chip
+
+	
+Arduino pins:
+	D5	|	~CHG	|	pulled to GND when battery is charging - use internal pullup on arduino. pinMode(5, INPUT_PULLUP);
+	D6	|	~PGOOD	|	pulled to GND when valid power source is connected - use internal pullup
+	D7	|	CHGI	|	High when ~CHG is low, used to drive status LED
+	D8	|	PGOODI	|	High when ~PGOOD is low, used to drive status LED
+	A0	|	ISET	|	Use to monitor actual charging current, see bq24074 datasheet for details
+	
+Other headers:
+	THERM/GND	|	used to connect ntc thermistor on battery pack. Ignore this header unless you need to use it,
+					in which case be sure to break connection on solder jumper THERM1
+					

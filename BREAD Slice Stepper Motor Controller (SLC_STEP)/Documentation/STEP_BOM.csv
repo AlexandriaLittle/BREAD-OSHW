@@ -1,0 +1,13 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"J5";"PinSocket_1x03_P2.54mm_Vertical";1;"Conn_01x03_Male";;;
+2;"C3,C1,C2";"C_2312";3;"10uF_t";;;
+3;"J6";"TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal";1;"Screw_Terminal_01x02";;;
+4;"R4,R3,R2,R1";"R_1206_3216Metric_Pad1.30x1.75mm_HandSolder";4;"1k";;;
+5;"J4,J3";"TerminalBlock_TE_282834-8_1x08_P2.54mm_Horizontal";2;"Screw_Terminal_01x08";;;
+6;"J2";"TerminalBlock_TE_282834-4_1x04_P2.54mm_Horizontal";1;"Screw_Terminal_01x04";;;
+7;"D4,D3,D2,D1";"D_1206_3216Metric_Pad1.42x1.75mm_HandSolder";4;"5V";;;
+8;"A4,A3,A2,A1";"Pololu_Breakout-16_15.2x20.3mm";4;"Pololu_Breakout_A4988";;;
+9;"Logo1";"OSHW-Symbol_6.7x6mm_SilkScreen";1;"Logo_Open_Hardware_Small";;;
+10;"H4,H3,H2,H1";"MountingHole_3.2mm_M3_DIN965_Pad";4;"MountingHole";;;
+11;"G1";"Arduino_Nano";1;"Arduino_Nano_v3.x";;;
+12;"J1";"PinSocket_1x10_P2.54mm_Horizontal";1;"Conn_01x10_Female";;;

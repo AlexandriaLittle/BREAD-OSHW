@@ -1,0 +1,45 @@
+title: Broadly Expandable and Reconfigurable Data Acquisition and Automation Device
+  (BREAD)
+description: "Just as other open source projects have found success by having modular
+  frameworks and clearly documented specifications, a framework to unify and
+  enable interoperation of these open source electronics systems would be
+  greatly beneficial to the scientific community. To meet these needs and ensure
+  greater accessibility to high-quality electronics sensing and DAQ systems,
+  this article shares and tests a news framework where new open source
+  electronics can be developed and have plug-and-play functionality. The Broadly
+  Reconfigurable and Expandable Automation Device (BREAD), consists of a basic
+  set of guidelines and requirements to which others can contribute. "
+keywords:
+  - open source electronics
+  - DAQ
+  - data acquisition
+  - automation
+project-link: https://osf.io/u2h4g/
+made: true
+made-independently: false
+license:
+  hardware: CERN-OHL-S-2.0
+  documentation: CC-BY-SA-3.0
+  software: GPL-3.0-or-later
+licensor:
+  name: "Joshua Pearce "
+  affiliation: Western University
+  email: joshua.pearce@uwo.ca
+okh-manifest-version: 1.0.0
+date-updated: 2023-07-26
+manifest-author:
+  name: Joshua Pearce
+  affiliation: Western University
+  email: joshua.pearce@uwo.ca
+manifest-language: en-CA
+contact:
+  name: Joshua Pearce
+  affiliation: Western University
+  email: joshua.pearce@uwo.ca
+contributors:
+  - name: "      Nicholas Whisman"
+  - name: " Shane Oberloier"
+  - name: Finn Hafting
+version: "1"
+development-stage: prototype
+documentation-home: https://osf.io/u2h4g/

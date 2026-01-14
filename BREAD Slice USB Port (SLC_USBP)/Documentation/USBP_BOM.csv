@@ -1,0 +1,7 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"J3,J2";"USB_A_Molex_67643_Horizontal";2;"USB_A";;;
+2;"Logo1";"OSHW-Symbol_6.7x6mm_SilkScreen";1;"Logo_Open_Hardware_Small";;;
+3;"H4,H3,H2,H1";"MountingHole_3.2mm_M3_DIN965_Pad";4;"MountingHole";;;
+4;"C1,C2";"C_2312";2;"10uF_t";;;
+5;"A1";"Arduino_Nano";1;"Arduino_Nano_v3.x";;;
+6;"J1";"PinSocket_1x10_P2.54mm_Horizontal";1;"Conn_01x10_Female";;;

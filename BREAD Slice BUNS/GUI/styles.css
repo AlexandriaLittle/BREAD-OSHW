@@ -1,0 +1,191 @@
+/* Table Styles */
+.table-container {
+    width: 100%; /* Full-width container for table */
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+    margin-bottom: 100px; /* Space for image at the bottom */
+}
+
+table {
+    width: 80%; /* Adjust width */
+    margin: 20px auto; /* Center the table with some margin */
+    border-collapse: collapse; /* Remove default space between cells */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    padding: 12px; /* Add padding for readability */
+    text-align: left; /* Align text */
+    border-bottom: 1px solid #ddd; /* Add subtle borders between rows */
+    font-size: 16px;
+    white-space: nowrap; /* Prevent text wrapping for readability */
+}
+
+/* Table Header */
+th {
+    background-color: #72bad4; /* Use a nicer background color */
+    color: white;
+    text-transform: uppercase; /* Make header text uppercase */
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+
+th h2 {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+}
+
+th .btn-add {
+    float: right; /* Align the button to the right within the header */
+    background-color: #949494;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Table Rows */
+tr {
+    background-color: #f9f9f9; /* Default background for rows */
+}
+
+tr:hover {
+    background-color: #cacaca; /* Lighter background on hover */
+}
+
+/* Buttons */
+.btn {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+/* Primary Button for Edit */
+.btn-primary {
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #45a049; /* Darken on hover */
+}
+
+/* Danger Button for Delete */
+.btn-danger {
+    background-color: #f44336;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btn-danger:hover {
+    background-color: #d32f2f; /* Darken on hover */
+}
+
+/* Modal Styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 200px; /* Set a fixed width, adjust as needed */
+    max-width: 500px; /* Ensure content doesn't stretch too wide */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    position: relative;
+    text-align: center; /* Optional: To center text inside the modal */
+}
+
+/* Close Button */
+.close {
+    color: #aaa;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+}
+
+/* Logo Styles */
+.OSHE-logo {
+    position: fixed; /* Fixes the image in the viewport */
+    bottom: 0px;
+    right: 0px; /* Distance from the right */
+    width: 10%; /* Set width as needed */
+    height: auto; /* Maintain aspect ratio */
+    z-index: 1; /* Ensure it stays on top of other elements */
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 1100px) {
+    .OSHE-logo {
+        display: none; /* Hide the logo on smaller screens */
+    }
+
+    /* Ensure the table takes full width on smaller screens */
+    table {
+        width: 100%; /* Full width on mobile */
+        font-size: 14px; /* Reduce font size */
+    }
+    
+    th, td {
+        padding: 10px; /* Adjust padding */
+    }
+    
+    .btn {
+        font-size: 12px; /* Adjust button size */
+    }
+}
+
+/* Hide Description column when screen width is less than 875px */
+@media (max-width: 850px) {
+    th:nth-child(3), td:nth-child(3) {
+        display: none; /* Hide the Description column */
+    }
+
+    /* Reduce table font size for readability */
+    table {
+        font-size: 12px; /* Smaller font on very small screens */
+    }
+    
+    th, td {
+        padding: 8px; /* Reduce padding */
+    }
+
+
+    th:nth-child(5), /* Hide "Edit" header */
+    th:nth-child(6) { /* Hide "Delete" header */
+        padding: 0px;
+        font-size: 0px;
+    }
+
+    
+    /* Hide button text on small screens */
+    .btn span {
+        display: none; /* Hide text inside buttons */
+    }
+}

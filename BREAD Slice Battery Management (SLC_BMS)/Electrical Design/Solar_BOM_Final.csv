@@ -1,0 +1,16 @@
+Qty,Reference(s),Value,Must Purchase,Footprint,Part#,  Price/each  ,Total Price,link
+1,BATT1,JST 2PH,y,Adafruit_BQ24074:JST-PH-2-SMT-RA,S2B-PH-K-S(LF)(SN), $0.17 , $0.17 ,https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-PH-K-S-LF-SN/926626
+4,"C1, C2, C7, C8",10uF,y,Adafruit_BQ24074:0805-NO,CL21A106KOQNNNE, $0.10 , $0.40 ,https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A106KOQNNNE/3886754
+2,"C3, C6",22uF,y,Adafruit_BQ24074:0805-NO,CL21A226MOQNNNE, $0.27 , $0.54 ,https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MOQNNNE/3888567
+2,"D1, D2",SK34A,y,Adafruit_BQ24074:SMADIODE,SK34A, $0.50 , $1.00 ,https://www.digikey.com/en/products/detail/smc-diode-solutions/SK34A/6022681
+1,D4,RED,y,Adafruit_BQ24074:CHIPLED_0603,B1911USD-20D000114U1930, $0.10 , $0.10 ,https://www.digikey.com/en/products/detail/harvatek-corporation/B1911USD-20D000114U1930/15519991
+1,D5,GREEN,y,Adafruit_BQ24074:CHIPLED_0603,B1911NG--20D000214U1930, $0.10 , $0.10 ,https://www.digikey.com/en/products/detail/harvatek-corporation/B1911NG-20D000214U1930/15519989
+1,J2,USB_B_Micro,y,Connector_USB:USB_Micro-B_GCT_USB3076-30-A,USB3076-30-A, $0.70 , $0.70 ,https://www.digikey.com/en/products/detail/gct/USB3076-30-A/9859635
+1,L1,22uH,y,Inductor_SMD:L_Taiyo-Yuden_NR-50xx_HandSoldering,NRS5020T220MMGJ, $0.31 , $0.31 ,https://www.digikey.com/en/products/detail/taiyo-yuden/NRS5020T220MMGJ/2230196
+1,R1,590,y,Adafruit_BQ24074:0603-NO,RMCF0603FT590R, $0.10 , $0.10 ,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT590R/1714140
+2,"R2, R4",1K,y,Adafruit_BQ24074:0603-NO,RNCP0603FTD1K00, $0.10 , $0.20 ,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0603FTD1K00/2240106
+1,R3,2K,y,Adafruit_BQ24074:0603-NO,RMCF0603FT2K00, $0.10 , $0.10 ,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT2K00/1761334
+5,"R5, R6, R9, R10, R11",10K,y,Adafruit_BQ24074:0603-NO,RNCP0603FTD10K0, $0.10 , $0.50 ,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0603FTD10K0/2240139
+1,R7,39k,y,Adafruit_BQ24074:0603-NO,RMCF0603FT39K0, $0.10 , $0.10 ,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT39K0/1761023
+1,R8,2.2k,y,Adafruit_BQ24074:0603-NO,RMCF0603FT2K20, $0.10 , $0.10 ,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT2K20/1760987
+1,X2,BQ24074,y,Adafruit_BQ24074:QFN16_3MM,, $3.65 , $3.65 ,https://www.digikey.com/en/products/detail/texas-instruments/BQ24074RGTR/2047269

@@ -1,0 +1,498 @@
+107393042579481
+OCI
+1210_I
+
+
+0
+2
+2
+OCI
+BARREL_JACK
+DC Barrel Jack
+Power Jack
+0
+3
+3
+OCI
+C_1206_HandSoldering
+Capacitor SMD 1206, hand soldering
+capacitor 1206
+0
+2
+2
+OCI
+C_2312
+
+
+0
+2
+2
+OCI
+C_2917
+
+
+0
+2
+2
+OCI
+C_Radial_D5_L11_P2
+Radial Electrolytic Capacitor 5mm x Length 11mm, Pitch 2mm
+Electrolytic Capacitor
+0
+2
+2
+OCI
+C_Radial_D8_L11.5_P3.5
+Radial Electrolytic Capacitor Diameter 8mm x Length 11.5mm, Pitch 3.5mm
+Electrolytic Capacitor
+0
+2
+2
+OCI
+C_Radial_D10_L16_P5
+Radial Electrolytic Capacitor 10mm x Length 16mm, Pitch 5mm
+Electrolytic Capacitor
+0
+2
+2
+OCI
+C_Radial_D12.5_L25_P5
+Radial Electrolytic Capacitor Diameter 12.5mm x Length 25mm, Pitch 5mm
+Electrolytic Capacitor
+0
+2
+2
+OCI
+DB9MC
+Connecteur DB9 male couche
+CONN DB9
+0
+11
+9
+OCI
+DIP-4_W7.62mm_LongPads
+4-lead dip package, row spacing 7.62 mm (300 mils), longer pads
+dil dip 2.54 300
+0
+4
+4
+OCI
+DIP-8_W7.62mm_LongPads
+8-lead dip package, row spacing 7.62 mm (300 mils), longer pads
+dil dip 2.54 300
+0
+8
+8
+OCI
+DIP-14_W7.62mm_LongPads
+14-lead dip package, row spacing 7.62 mm (300 mils), longer pads
+dil dip 2.54 300
+0
+14
+14
+OCI
+DIP-16_W7.62mm_LongPads
+16-lead dip package, row spacing 7.62 mm (300 mils), longer pads
+dil dip 2.54 300
+0
+16
+16
+OCI
+DIP-20_W7.62mm_LongPads
+20-lead dip package, row spacing 7.62 mm (300 mils), longer pads
+dil dip 2.54 300
+0
+20
+20
+OCI
+DIP-28_W7.62mm_LongPads
+28-lead dip package, row spacing 7.62 mm (300 mils), longer pads
+dil dip 2.54 300
+0
+28
+28
+OCI
+DIP-40_W15.24mm_LongPads
+40-lead dip package, row spacing 15.24 mm (600 mils), longer pads
+dil dip 2.54 600
+0
+40
+40
+OCI
+Diode_DO-41_SOD81_Horizontal_RM10
+Diode, DO-41, SOD81, Horizontal, RM 10mm,
+Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,
+0
+2
+2
+OCI
+Diode_DO-201AD_Horizontal_RM15
+Diode DO-201AD Horizontal
+Diode DO-201AD Horizontal SB320 SB340 SB360
+0
+2
+2
+OCI
+Diode_P600_Horizontal
+Diode, P600, horizontal,
+Diode, P600, horizontal,
+0
+2
+2
+OCI
+Fuse_Holder
+
+
+0
+4
+2
+OCI
+LED-5MM
+LED 5mm round vertical
+LED 5mm round vertical
+0
+2
+2
+OCI
+LED-RGB-5MM_Common_Cathode
+5mm common cathode RGB LED
+RGB LED 5mm Common Cathode
+0
+4
+4
+OCI
+Mono_audio_Jack
+
+
+0
+4
+3
+OCI
+Pin_Header_Straight_1x01
+Through hole pin header
+pin header
+0
+1
+1
+OCI
+Pin_Header_Straight_1x02
+Through hole pin header
+pin header
+0
+2
+2
+OCI
+Pin_Header_Straight_1x03
+Through hole pin header
+pin header
+0
+3
+3
+OCI
+Pin_Header_Straight_1x04
+Through hole pin header
+pin header
+0
+4
+4
+OCI
+Pin_Header_Straight_1x05
+Through hole pin header
+pin header
+0
+5
+5
+OCI
+Pin_Header_Straight_1x06
+Through hole pin header
+pin header
+0
+6
+6
+OCI
+Pin_Header_Straight_1x07
+Through hole pin header
+pin header
+0
+7
+7
+OCI
+Pin_Header_Straight_1x08
+Through hole pin header
+pin header
+0
+8
+8
+OCI
+Pin_Header_Straight_1x09
+Through hole pin header
+pin header
+0
+9
+9
+OCI
+Pin_Header_Straight_1x10
+Through hole pin header
+pin header
+0
+10
+10
+OCI
+Pin_Header_Straight_1x11
+Through hole pin header
+pin header
+0
+11
+11
+OCI
+Pin_Header_Straight_1x12
+Through hole pin header
+pin header
+0
+12
+12
+OCI
+Pin_Header_Straight_1x13
+Through hole pin header
+pin header
+0
+13
+13
+OCI
+Pin_Header_Straight_1x14
+Through hole pin header
+pin header
+0
+14
+14
+OCI
+Pin_Header_Straight_1x15
+Through hole pin header
+pin header
+0
+15
+15
+OCI
+Pin_Header_Straight_1x16
+Through hole pin header
+pin header
+0
+16
+16
+OCI
+Pin_Header_Straight_1x17
+Through hole pin header
+pin header
+0
+17
+17
+OCI
+Pin_Header_Straight_1x18
+Through hole pin header
+pin header
+0
+18
+18
+OCI
+Pin_Header_Straight_1x19
+Through hole pin header
+pin header
+0
+19
+19
+OCI
+Pin_Header_Straight_1x20
+Through hole pin header
+pin header
+0
+20
+20
+OCI
+Pin_Header_Straight_1x21
+Through hole pin header
+pin header
+0
+21
+21
+OCI
+Pin_Header_Straight_1x22
+Through hole pin header
+pin header
+0
+22
+22
+OCI
+Pin_Header_Straight_1x23
+Through hole pin header
+pin header
+0
+23
+23
+OCI
+Pin_Header_Straight_1x24
+Through hole pin header
+pin header
+0
+24
+24
+OCI
+Pin_Header_Straight_1x25
+Through hole pin header
+pin header
+0
+25
+25
+OCI
+Pin_Header_Straight_1x26
+Through hole pin header
+pin header
+0
+26
+26
+OCI
+Pin_Header_Straight_1x27
+Through hole pin header
+pin header
+0
+27
+27
+OCI
+Pin_Header_Straight_1x28
+Through hole pin header
+pin header
+0
+28
+28
+OCI
+Pin_Header_Straight_1x29
+Through hole pin header
+pin header
+0
+29
+29
+OCI
+Pin_Header_Straight_1x30
+Through hole pin header
+pin header
+0
+30
+30
+OCI
+Pin_Header_Straight_1x31
+Through hole pin header
+pin header
+0
+31
+31
+OCI
+Pin_Header_Straight_1x32
+Through hole pin header
+pin header
+0
+32
+32
+OCI
+Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp
+3296, 3/8, Square, Trimpot, Trimming, Potentiometer, Bourns
+3296, 3/8, Square, Trimpot, Trimming, Potentiometer, Bourns
+0
+3
+3
+OCI
+Push_Button
+SW_TH_Tactile_Omron_B3F-10xx
+Omron B3F-10xx
+0
+4
+2
+OCI
+RJ45_8
+
+RJ45
+0
+8
+8
+OCI
+R_1206_HandSoldering
+Resistor SMD 1206, hand soldering
+resistor 1206
+0
+2
+2
+OCI
+Resistor_Horizontal_RM30mm
+Resistor, Axial, RM 30mm,
+Resistor Axial RM 30mm
+0
+2
+2
+OCI
+SOD-123
+SOD-123
+SOD-123
+0
+2
+2
+OCI
+SOD-323
+SOD-323
+SOD-323
+0
+2
+2
+OCI
+SOT-23
+SOT-23, Standard
+SOT-23
+0
+3
+3
+OCI
+SSOP-28_5.3x10.2mm_Pitch0.65mm
+28-Lead Plastic Shrink Small Outline (SS)-5.30 mm Body [SSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+SSOP 0.65
+0
+28
+28
+OCI
+THT_Inductor_ls_5mm_diam_9mm
+
+
+0
+2
+2
+OCI
+TO-92_Inline_Wide
+TO-92 leads in-line, wide, drill 0.8mm (see NXP sot054_po.pdf)
+to-92 sc-43 sc-43a sot54 PA33 transistor
+0
+3
+3
+OCI
+TO-220-5
+
+
+0
+5
+5
+OCI
+TO-220_Neutral123_Vertical_LargePads
+TO-220, Neutral, Vertical, Large Pads,
+TO-220, Neutral, Vertical, Large Pads,
+0
+3
+3
+OCI
+TerminalBlock_Pheonix_MKDS1.5-2pol
+2-way 5mm pitch terminal block, Phoenix MKDS series
+
+0
+2
+2
+OCI
+USB_B
+USB B connector
+USB_B USB_DEV
+0
+6
+5

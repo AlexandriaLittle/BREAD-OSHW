@@ -1,0 +1,8 @@
+Id,Designator,Package,Quantity,Designation,Supplier and ref
+1,"U4,U3,U2,U1",SOIC-16W_7.5x10.3mm_P1.27mm,4,ACS723xMATR-10AB,
+2,"J5,J4,J3,J2",TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal,4,Screw_Terminal_01x02,
+3,Logo1,OSHW-Symbol_6.7x6mm_SilkScreen,1,Logo_Open_Hardware_Small,
+4,"H4,H3,H2,H1",MountingHole_3.2mm_M3_DIN965_Pad,4,MountingHole,
+5,"C1,C2",C_2312,2,10uF_t,
+6,A1,Arduino_Nano,1,Arduino_Nano_v3.x,
+7,J1,PinSocket_1x10_P2.54mm_Horizontal,1,Conn_01x10_Female,
