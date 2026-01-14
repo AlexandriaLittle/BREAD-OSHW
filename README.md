@@ -1,4 +1,4 @@
-# BREAD - Boradly Reconfigurable and Expandable Automation Device
+# BREAD - Broadly Reconfigurable and Expandable Automation Device
 
 ***Please check the 1.Documentation folder for the original paper and other related documents, licenses, etc!***
 
@@ -9,7 +9,6 @@ The original project documentation is published in the open-access journal Hardw
 ## BREAD Links
 - [Finn Hafting: Modularize your electronics with BREAD - YouTube](https://www.youtube.com/watch?v=OMPlVbqSqJ4)
 - [Open Source Framework: Expandable Reconfigurable Data Acquisition Device (BREAD)](https://www.appropedia.org/Open_Source_Framework_for_a_Broadly_Expandable_and_Reconfigurable_Data_Acquisition_and_Automation_Device_(BREAD))
-Moving_the_Open-Source_Broadly_Reconfigurable_and_Expandable_Automation_Device_(BREAD)_Towards_a_Supervisory_Control_and_Data_Acquisition_(SCADA)_System)
 - [OSHE Bread Applications - Appropedia, the sustainability wiki](https://www.appropedia.org/OSHE_Bread_Applications)
 - [GitHub - FHafting/BREAD](https://github.com/FHafting/BREAD)
 - [OSF | BREAD](https://osf.io/u2h4g/overview)
