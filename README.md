@@ -31,7 +31,7 @@ As the original project is licensed CC-BY-SA-4.0, this project is released under
 - [OSF | BREAD Slice - DC Motor Controller (SLC_DCMT)](https://osf.io/6aw9m/overview)
 - [OSF | BREAD Slice - Field Solar Power (SLC_SOLR)](https://osf.io/9gm5h/overview)
 - [OSF | BREAD Slice - MOLD(Mass Output and Logging Device)](https://osf.io/nm7je/overview)
-- [OSF | BREAD Slice - Pressure Sensor] (https://osf.io/86dz7/overview)
+- [OSF | BREAD Slice - Pressure Sensor](https://osf.io/86dz7/overview)
 - [OSF | BREAD Slice - Pump Control Board (Specialized) (SLC_PUMP)](https://osf.io/4mzs8/overview)
 - [OSF | BREAD Slice - Relay Heating Element Controller (SLC_RLHT)](https://osf.io/pf6gy/overview)
 - [OSF | BREAD Slice - Servo Motor Controller (SLC_SERV)](https://osf.io/d7vks/overview)
