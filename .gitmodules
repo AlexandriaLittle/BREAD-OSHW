@@ -4,3 +4,15 @@
 [submodule "2. Software/BREAD-Local-Software"]
 	path = 2. Software/BREAD-Local-Software
 	url = https://github.com/FHafting/BREAD-Local-Software.git
+[submodule "Slice_PRTO_CONN_S2L"]
+	path = Slice_PRTO_CONN_S2L
+	url = https://github.com/FEASTorg/Slice_PRTO_CONN_S2L.git
+[submodule "Slice_PRTO_SMT_S2L"]
+	path = Slice_PRTO_SMT_S2L
+	url = https://github.com/FEASTorg/Slice_PRTO_SMT_S2L.git
+[submodule "Slice_PRTO_THT_S2L"]
+	path = Slice_PRTO_THT_S2L
+	url = https://github.com/FEASTorg/Slice_PRTO_THT_S2L.git
+[submodule "Slice_PRTO_THTA_S2L"]
+	path = Slice_PRTO_THTA_S2L
+	url = https://github.com/FEASTorg/Slice_PRTO_THTA_S2L.git
